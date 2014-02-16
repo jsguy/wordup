@@ -1,0 +1,27 @@
+/* Micro clearfix */
+.cf					 	{ zoom: 1; }
+.cf:before,
+.cf:after			   	{ content: ""; display: table; }
+.cf:after			   	{ clear: both; }
+
+/* Generic */
+.left 					{ float: left; }
+.right 					{ float: right; }
+.clear 					{ clear: both; }
+
+/* Specific */
+#matrix,
+#solvedMatrix			{ border: 4px solid #aaa; padding: 4px;}
+.word 					{ background: #eec; border-radius: 2px; border: 1px solid #ccc; display: inline-block; float: left; padding: 1px;}
+#words .word 			{ margin-right: 1em; }
+.cells5					{ width: 114px; }
+.cells10				{ width: 270px; }
+.cell					{ border: 1px solid #ddd; border-radius: 2px; float: left; height: 24px; line-height: 24px; margin: 0 1px 1px 0; text-align: center; width: 24px; }
+.cell.selectedCell		{ background: #0f0; }
+.ui-draggable-dragging	{ opacity: 0.5; }
+
+#error 					{ color: red }
+#editModeSurround		{ display: none; width: 1400px; }
+#editModeSurround h2	{ margin: 0; }
+.editModeBox			{ width: 400px; background: #eee; padding: 1em; margin-right: 1em;}
+#editOutput				{ width: 400px; height: 200px; }

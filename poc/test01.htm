@@ -1,0 +1,870 @@
+<html>
+<head>
+	<title></title>
+	<script src="libs/jquery-1.9.1.js"></script>
+	<script src="libs/knockout-2.2.1.js"></script>
+	<script src="libs/kotools/kotools.js"></script>
+	<script src="libs/mustachejs/mustache.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<h1>WordConnect - level <span id="level"></span>: <span id="title"></span></h1>
+
+<div id="editModeSurround" class="cf clear">
+	<hr/>
+	<div class="editModeBox left cf">
+		<h2>Control</h2>
+
+		<div>
+			<label><span>Level title</span> <input id="levelTitle" name="levelTitle" type="text"/ value=""></label>
+			<label><span>Level number</span> <input id="levelNumber" name="levelNumber" type="text"/ value="0"></label>
+<!--
+				//	Grab the first two words? - Need a textbox for this, should be editable?
+				levelTitle: "Nerd burger",
+				//	Need a textbox for this
+				levelNumber: 1,		-->
+		</div>
+		<div>
+		</div>
+
+		<div>
+			<input id="addWordText"/><button type="button" id="addWord">Add word</button>
+		</div>
+		<p>NOTE: Edit mode enabled - words can go anywhere, are not checked for validity</p>
+	</div>
+	<div class="editModeBox left cf">
+		<h2>Solved matrix</h2>
+		<div>
+			<button type="button" id="setSolution">Set solution</button>
+		</div>
+		<div id="solvedMatrix" class="cf cells10"></div>
+	</div>
+	<div class="editModeBox left cf">
+		<h2>Level JSON</h2>
+		<div>
+			<button type="button" id="updateOutput">Update output</button>
+		</div>
+		<textarea id="editOutput"></textarea>
+	</div>
+</div>
+
+<hr/>
+<p>
+	To place a word, click a square on the matrix, then click on the word.
+</p>
+
+<div id="words" class="cf"></div>
+
+<label><span>Vertical:</span>
+<input type="checkbox" id="vert" value="true"/>
+</label>
+
+<label><span>Edit mode:</span>
+<input type="checkbox" id="editMode" value="true"/>
+</label>
+<hr/>
+
+<input type="hidden" value="0" id="x"/>
+<input type="hidden" value="0" id="y"/>
+
+<select id="placedWords" data-bind="value: placedWordSelected, options: placedWords, optionsText: 'word', optionsValue: 'word', enable: placedWords().length > 0"></select>
+<button id="undoWordButton" data-bind="enable: placedWords().length > 0">Undo word</button>
+
+<hr/>
+
+<button id="solve">Solve it for me</button>
+
+<hr/>
+
+Score: <span id="score">0</span>
+
+<div id="error"></div>
+
+<hr/>
+
+<div id="matrix" class="cf cells10"></div>
+
+
+<script>
+	/*		
+		Levels
+
+		. Probably best to have a static size for v1.0 app?
+		. Titles should be the words already placed
+		. User won't see title till they play the level
+		. Words to be placed should have something to do with the title - we can be clever here.
+		. Early levels should be basic - no more than 6 words or so
+		. Later levels can have 10+ words
+		. Consider very basic story a-la Angry birds
+		. Need to have "worlds" for different level packs - theming comes in here, can play with the graphics
+		. etc...
+	*/
+	var levels = [
+		{
+			//	Um, geek stuff? TODO: Update the words
+			levelTitle: "Nerd burger",
+			levelNumber: 1,
+			//	What words are to be placed
+			words: ['matrix', 'smart', 'geek', 'math', 'exon'],
+			//	Full solution 
+			solution: [{"word":"math","x":0,"y":9},{"word":"smart","x":2,"y":5,"vert":"true"},{"word":"matrix","x":2,"y":6},{"word":"geek","x":1,"y":0},{"word":"exon","x":3,"y":0,"vert":"true"}],
+
+			initialMatrix: [{"word":"nerd","x":3,"y":3},{"word":"burger","x":5,"y":1,"vert":"true"}]
+		},
+		{
+			"solution":[{"word":"nerf","x":9,"y":5,"vert":"true"},{"word":"first","x":4,"y":1,"vert":"true"},{"word":"force","x":5,"y":6},{"word":"gungan","x":2,"y":8},{"word":"shot","x":6,"y":1},{"word":"herder","x":7,"y":1,"vert":"true"}],
+			"words":["force","nerf","herder","shot","gungan","first"],
+			"levelTitle":"Starring warrior",
+			"levelNumber":"2",
+			"initialMatrix":[{"word":"warrior","x":1,"y":3},{"word":"starring","x":2,"y":1,"vert":"true"}]
+		}
+	];
+
+
+
+
+(function() {
+
+	var currentLevel = 0,
+		//	What words are to be placed
+		words = levels[currentLevel].words,
+		//	Full solution 
+		//	TODO: Partial solution? ie: start you off in the right direction?
+		solution = levels[currentLevel].solution,
+		//	Initial words
+		initialMatrix = levels[currentLevel].initialMatrix,
+		//	Score offset to allow for words already placed
+		initScore, //levels[currentLevel].initScore,
+		levelTitle = levels[currentLevel].levelTitle,
+		levelNumber = levels[currentLevel].levelNumber,
+		//	How big is it
+		matrixSize = [10, 10],
+		matrix = [],
+
+		//	level object for level editor
+		levelObject = {},
+
+		//
+		//	Score per letter
+		//	Intersecting = x2
+		//	Intersecting at end of word = x 3
+		//	
+		scoreTable = {a: 1, b: 2, c: 2, d: 2, e: 1, f: 3, g: 2, h: 2, i: 1, j: 3, k: 3, l: 3, m: 2, n: 2, o: 1, p: 2, q: 4, r: 1, s: 1, t: 1, u: 2, v: 3, w: 2, x: 4, y: 3, z: 5 },
+		//	Mustache templates
+		wordTmpl = [
+			"<div class='draggable word' data-word='{{fullWord}}'>",
+			"{{#word}}",
+			"	<div class='cell'>{{.}}</div>",
+			"{{/word}}",
+			"</div>"].join(""),
+		cellTmpl = "<div data-x='{{x}}' data-y='{{y}}' class='cell'>{{letter}}</div>",
+		errors = {
+			wontFit: "Won't fit on the board",
+			overlap: "Word overlap failed at letter [x] with the letter [letter]",
+			mustOverlap: "You must overlap another word to place a word",
+			nearOtherWord: "Up against other word",
+			wordBefore: "Word before",
+			wordAfter: "Word after"
+		},
+		placedWords = [],
+		//	Register a word for undo
+		registerUndo = function(word, x, y, vert) {
+			placedWords.unshift({
+				word: word,
+				x: x,
+				y: y,
+				vert: vert 
+			});
+
+			//	Set options and select last used word
+			window.viewModel.placedWords(placedWords);
+			window.viewModel.placedWordSelected(placedWords[0].word);
+		},
+
+		//	Undoes a particular word
+		undoWord = function(word) {
+			var undoWord, i, oldMatrix = copyMatrix(matrix), oldPlacedWords = [];
+			//	Copy word obj
+			for(var i = 0; i < placedWords.length; i += 1) {
+				oldPlacedWords.push(placedWords[i]);
+				if(placedWords[i].word == word){
+					undoWord = placedWords[i];
+				}
+			}
+
+			if(undoWord && placedWords.length > 0) {
+				var myWords = [];
+
+				//	Copy all but the selected undo word
+				for(var i = 0; i < placedWords.length; i += 1) {
+					if(placedWords[i].word !== word) {
+						myWords.push(placedWords[i]);
+					}
+				}
+
+				//	Grab the original matrix
+				matrix = initMatrix(initialMatrix);
+
+				//	Reconstruct matrix - using placeWord
+				for(var i = myWords.length - 1; i > -1; i -= 1) {
+					var w = myWords[i];
+
+					if(! canPlaceWord(w.word, w.x, w.y, w.vert) ) {
+						matrix = oldMatrix;
+						$('#error').html("Cannot undo word, as it would invalidate other word");
+
+						//	TODO: Use just the viewmodel
+						placedWords = oldPlacedWords;
+
+						//	Reset view model
+						window.viewModel.placedWordSelected(null);
+						window.viewModel.placedWords(oldPlacedWords);
+
+						//	Show it
+						renderMatrix();
+						return;
+					} else {
+						placeWord(w.word, w.x, w.y, w.vert);
+					}
+				}
+
+				//	TODO; Problem when undoing, it thinks we've won! words.length == placedWords.length, after undonig 2 in a row.
+
+				//	Remove old history
+				placedWords = myWords;
+
+				//	Reset view model
+				window.viewModel.placedWordSelected(null);
+				window.viewModel.placedWords(placedWords);
+
+				//	Show it
+				renderMatrix();
+				//	Score
+				$('#score').html(scoreMatrix());
+				//	Re-show word
+				$('#words').find('[data-word=' + undoWord.word + ']').show(1000);
+			} else {
+				$('#error').html("Cannot undo word");
+			}
+
+		},
+
+
+		//	Are we editing the level
+		editMode = false,
+
+		//	Initialises the matrix, with the optional placed words
+		initMatrix = function(placedWords) {
+			for(var y = 0; y < matrixSize[1]; y += 1) {
+				matrix[y] = [];
+				for(var x = 0; x < matrixSize[0]; x += 1) {
+					matrix[y][x] = "";
+				}
+			}
+			if(placedWords) {
+				if(placedWords.length) {
+					for(var i = 0; i < placedWords.length; i += 1) {
+						var w = placedWords[i];
+						//	Use the non-checked way to place the word
+						placeWordInMatrix(w.word, w.x, w.y, w.vert);
+					}
+				}
+			}
+			return matrix;
+		},
+
+		//	Returns a copy of the matrix
+		copyMatrix = function(myMatrix) {
+			//	Create copy of myMatrix
+			myMatrix = myMatrix || matrix;
+			var newMatrix = [];
+			for(var y = 0; y < matrixSize[1]; y += 1) {
+				newMatrix[y] = newMatrix[y] || [];
+				for(var x = 0; x < matrixSize[0]; x += 1) {
+					newMatrix[y][x] = newMatrix[y][x] || [];
+					newMatrix[y][x] = "" + myMatrix[y][x];
+				}
+			}
+
+			return newMatrix;
+		},
+		//	Returns a vertical version of the matrix - makes checking words easier
+		verticalMatrix = function(flipMatrix) {
+			//	Create vertical matrix
+			var vMatrix = [],
+				myMatrix = (flipMatrix)? flipMatrix: matrix;
+			for(var y = 0; y < matrixSize[1]; y += 1) {
+				vMatrix[y] = vMatrix[y] || [];
+				for(var x = 0; x < matrixSize[0]; x += 1) {
+					vMatrix[y][x] = vMatrix[y][x] || [];
+					vMatrix[y][x] = myMatrix[x][y];
+				}
+			}
+
+			return vMatrix;
+		},
+		//	Renders the contents of the matrix into the DOM
+		renderMatrix = function(vert, target) {
+			var myMatrix = (vert)? verticalMatrix(): matrix;
+
+			target = target || '#matrix';
+
+			//	Create matrix html
+			var matrixHtml = "";
+			for(var y = 0; y < matrixSize[1]; y += 1) {
+				for(var x = 0; x < matrixSize[0]; x += 1) {
+					//	DOM
+					matrixHtml += Mustache.compile(cellTmpl)({
+						x: x,
+						y: y,
+						letter: myMatrix[x][y]? myMatrix[x][y]: ""
+					});
+				}
+			}
+
+			//	Inject into DOM
+			$(target).html(matrixHtml);
+		},
+
+		//	Scores the contents of the matrix
+		scoreMatrix = function(vert, myMatrix) {
+			myMatrix = myMatrix || matrix;
+			//	Set the inital score offset (based on letters already in the matrix)
+			var score = (initScore)? -initScore: 0,
+				xWidth = matrixSize[0] - 1,
+				yWidth = matrixSize[1] - 1,
+				//	See how many letters are near this letter
+				peekAround = function(x, y) {
+					var result = 0;
+					if( y > 0 && myMatrix[x][y-1] && myMatrix[x][y-1] !== "") {
+						result += 1;
+					}
+					if( y < yWidth && myMatrix[x][y+1] && myMatrix[x][y+1] !== "") {
+						result += 1;
+					}
+					if( x > 0 && myMatrix[x-1][y] && myMatrix[x-1][y] !== "") {
+						result += 1;
+					}
+					if( x < xWidth && myMatrix[x+1][y] && myMatrix[x+1][y] !== "") {
+						result += 1;
+					}
+					return result;
+				};
+
+			for(var y = 0; y < matrixSize[1]; y += 1) {
+				for(var x = 0; x < matrixSize[0]; x += 1) {
+					if(myMatrix[x][y] && myMatrix[x][y] !== "" ) {
+						score += peekAround(x,y) + scoreTable[myMatrix[x][y]];
+					}
+				}
+			}
+
+			return score;
+		},
+		//	See how much a word is worth
+		scoreWord = function(word) {
+			var i, wordScore = 0;
+			for(i = 0; i < word.length; i += 1) {
+				wordScore += scoreTable[word[i]];
+			}
+			return wordScore;
+		},
+
+		debug = function() {
+			console.log.apply(console, arguments);
+		},
+
+		//	Places a word in the matrix (without checking !)
+		placeWordInMatrix = function(word, x, y, vert) {
+			var count = 0,
+				myMatrix = matrix;
+
+			if(vert) {
+				myMatrix = verticalMatrix();
+				var tmpX = 0 + x;
+				x = y;
+				y = tmpX;
+			}
+
+			for(var ix = x; ix < x + word.length; ix += 1) {
+				myMatrix[ix][y] = word.charAt(count);
+				count += 1;
+			}
+
+			matrix = (vert)? verticalMatrix(myMatrix): myMatrix;
+		},
+
+		//	Iterate through the matrix to see if we can place a word in a particular spot
+		canPlaceWord = function(word, x, y, vert) {
+
+			var xSize = matrixSize[0],
+				ySize = matrixSize[1],
+				myMatrix = matrix,
+				result = {
+					success: true,
+					error: false
+				};
+
+			//	In edit mode, words can go anywhere
+			if(editMode) {
+				return result;
+			}
+
+			//	Gotta be numbers!
+			x = parseInt(x,10);
+			y = parseInt(y,10);
+
+			//	Setup vertical (flipped) matrix, so we can compare using the same methods
+			if(vert) {
+				myMatrix = verticalMatrix();
+				var tmpX = 0 + x, tmpXSize = xSize;
+				x = y;
+				y = tmpX;
+				xSize = ySize;
+				ySize = tmpXSize;
+			}
+
+			debug('Check if we can', word, x, y, 'for', word.length, xSize, ySize);
+
+			//	Does the word fit in the matrix?
+			if( ((x + word.length) > xSize) || y > ySize ) {
+				debug(errors.wontFit);
+				result.error = true;
+				result.reason = errors.wontFit;
+				return result;
+			}
+
+			//	Do we need to check the various sides?
+			var checkTop = !!(y > 0),
+				checkRight = !!(x + word.length < xSize-1 ),
+				checkBottom = !!(y < ySize - 1),
+				checkLeft = !!(x > 0),
+				overlapWords = [],
+				//	T, R, B, L
+				surroundWords = [],
+				foundSurroundWords = false,
+				ix, iy, i, overlappedWord = false;
+
+			//	Check if any chars overlap the word
+			for(ix = x; ix < x + word.length; ix += 1){
+				overlapWords.push(
+					(myMatrix[ix][y] && myMatrix[ix][y] !== "")? 
+						myMatrix[ix][y]: 
+						""
+				);
+			}
+
+			for(i = 0; i < overlapWords.length; i += 1) {
+				if(overlapWords[i] && overlapWords[i] !== "") {
+					overlappedWord = true;
+					break;
+				}
+			}
+
+			//	Must overlap to place a word
+			if(! overlappedWord) {
+				debug(errors.mustOverlap);
+				result.error = true;
+				result.reason = errors.mustOverlap;
+				return result;
+			}
+
+			//	See if they match the chars in the word
+			for(ix = 0; ix < word.length; ix += 1) {
+				if(overlapWords[ix] !== "" && word.charAt(ix) !== overlapWords[ix]){
+					var err = errors.overlap
+						.split('[x]').join(ix)
+						.split('[letter]').join(overlapWords[ix]);
+					debug(err);
+					result.error = true;
+					result.reason = err;
+					return result;
+				}
+			}
+
+
+			var checkAt = function(x,y,type) {
+				var sw = {};
+				if(myMatrix[x][y] && myMatrix[x][y] !== "") {
+					sw = {
+						letter: myMatrix[x][y],
+						x: x,
+						y: y
+					};
+					sw[type] = true;
+					// add offset and letter
+					surroundWords.push(sw);
+					foundSurroundWords = true;
+				}
+			};
+
+			//	Any words around it?
+			//	TODO: refactor to have check... inside the loop...
+			for(ix = x; ix < x + word.length; ix += 1){
+				if(checkTop) {
+					checkAt(ix,y-1,'top');
+				}
+				if(checkBottom) {
+					checkAt(ix,y+1,'bottom');
+				}
+			}
+
+			if(checkRight) {
+				ix = x + word.length;
+				checkAt(x + word.length,y,'right');
+			}
+
+			if(checkLeft) {
+				checkAt(x-1,y,'left');
+			}
+
+			if(foundSurroundWords) {
+				debug('surroundWords are', surroundWords);
+				//	We have words, need to check if they overlap with a different word
+				for(var i = 0; i < surroundWords.length; i += 1) {
+					var sw = surroundWords[i];
+					if(sw.top || sw.bottom) {
+						//	Check if there is a letter at sw.x - if so, we're fine
+						if(! (myMatrix[sw.x][y] && myMatrix[sw.x][y] !== "")) {
+							debug(errors.nearOtherWord);
+							result.error = true;
+							result.reason = errors.nearOtherWord;
+							return result;
+						}
+					}
+
+					if(sw.right || sw.left) {
+						//	Check if there is a letter above or below sw.x
+						if(! (myMatrix[sw.x][y-1] && myMatrix[sw.x][y-1] !== "") || (myMatrix[sw.x][y+1] && myMatrix[sw.x][y+1] !== "")) {
+							debug(errors.nearOtherWord);
+							result.error = true;
+							result.reason = errors.nearOtherWord;
+							return result;
+						}
+					}
+
+					if(sw.left) {
+						//	Check if there is a letter before 
+						if((myMatrix[sw.x][y] && myMatrix[sw.x][y] !== "")) {
+							debug(errors.wordBefore);
+							result.error = true;
+							result.reason = errors.wordBefore;
+							return result;
+						}
+					}
+
+					if(sw.right) {
+						//	Check if there is a letter after
+						if(sw.x + 1 < xSize) {
+							if((myMatrix[sw.x+1][y] && myMatrix[sw.x+1][y] !== "")) {
+								debug(errors.wordAfter);
+								result.error = true;
+								result.reason = errors.wordAfter;
+								return result;
+							}
+						}
+					}
+
+
+				}
+			}
+
+			return result;
+		},
+
+		//	Add a word into the matrix - returns false if the word won't fit
+		placeWord = function(word, x, y, vert){
+			var canPlace = canPlaceWord(word, x, y, vert);
+			if( ! canPlace.error ) {
+				debug('can place', word, x, y);
+
+				registerUndo(word, x, y, vert);
+
+				placeWordInMatrix(word, x, y, vert);
+				renderMatrix();
+				
+				//	Dodgy way to see if game is over
+				if(placedWords.length == words.length) {
+					alert("Woot woot! You win! Score: " + scoreMatrix());
+				}
+
+				return true;
+			} else {
+				//	Show error
+				$('#error').html(canPlace.reason);
+			}
+			return false;
+		},
+		checkEditMode = function(){
+			editMode = !!($('#editMode:checked').length > 0);
+
+			if(editMode) {
+				$('#editModeSurround').show();
+			} else {
+				$('#editModeSurround').hide();
+			}
+		},
+		//	Setup word for rendering
+		prepareWord = function(str) {
+			var x = [];
+			for(var j = 0; j < str.length; j += 1) {
+				x.push(str.charAt(j));
+			}
+			return x;
+		},
+		renderWord = function(str) {
+			var preparedWord = prepareWord(str),
+				result = Mustache.compile(wordTmpl)({
+					word: preparedWord,
+					fullWord: preparedWord.join('')
+				});
+			return result;
+		},
+
+		//	Initialise the game
+		initGame = function(args) {
+			var result = "", i;
+			for(var i = 0; i < words.length; i += 1) {
+				result += renderWord(words[i]);
+			}
+
+			$('#words').html(result);
+
+			renderMatrix();
+		};
+		
+
+
+	//	Initialise everything
+	matrix = initMatrix(initialMatrix);
+ 	initScore = scoreMatrix();
+	initGame();
+
+	//	Score
+	$('#score').html(scoreMatrix());
+
+	//	Setup click functionality to place words
+	$("#words").on('click', '.word', function(){
+		var word = $(this).data('word'),
+			xAt = parseInt($('#x').val(), 10),
+			yAt = parseInt($('#y').val(), 10);
+		if(! placeWord(word, xAt, yAt, $('#vert:checked').val())) {
+			debug(word, 'cannot go there...');
+		} else {
+			//	Remove the word from list
+			$(this).hide(1000);
+			//	Score!
+			$('#score').html(scoreMatrix());
+		}
+	});
+
+	$('#undoWordButton').click(function(){
+		//undoWord($('#undoWord').val());
+		undoWord($('#placedWords').val());
+	});
+
+	//	Setup solve func
+	$('#solve').click(function(){
+		var s = solution, 
+			i = s.length - 1;
+
+		//	Reset matrix and undo list
+		matrix = initMatrix(initialMatrix);
+		placedWords = [];
+		inter = setInterval(function(){
+			if(! s[i]) {
+				clearInterval(inter);
+				return;
+			}
+			placeWord(s[i].word, s[i].x, s[i].y, s[i].vert);
+			renderMatrix();
+			$('#score').html(scoreMatrix());
+
+			//	Remove word from list
+			$("#words").find('.word[data-word=' + s[i].word + ']').hide(1000);
+
+			i -= 1;
+		}, 100);
+	});
+
+	//	Add level and title
+	$('#level').html(levelNumber);
+	$('#title').html(levelTitle);
+
+	//	Setup click on cell functionality
+	$(function(){
+		var selectedClass = "selectedCell";
+		$("#matrix").on('click', '.cell', function(){
+			//	Clear all cells
+			$("#matrix").find('.cell').removeClass(selectedClass);
+			//	Clear error
+			$('#error').html('');
+			//	Set new cell
+			$(this).addClass(selectedClass);
+
+			$('#x').val($(this).data('x'));
+			$('#y').val($(this).data('y'));
+		});
+
+
+		//	Setup edit mode
+		checkEditMode();
+		$('#editMode').click(function() {
+			checkEditMode();
+		});
+
+		$('#addWord').click(function(){
+			var word = $('#addWordText').val();
+
+			$('#words').append(renderWord(word));
+
+		});
+
+		$('#setSolution').click(function(){
+			renderMatrix(false, '#solvedMatrix');
+			levelObject.solution = viewModel.placedWords();
+		});
+
+
+		$('#updateOutput').click(function(){
+			//	Use our level object
+			levelObject.words = [];
+
+			//	Grab title and level number
+			levelObject.levelTitle = $('#levelTitle').val();
+			levelObject.levelNumber = $('#levelNumber').val();
+
+			//	Grab all words, even hidden ones
+			$('#words').find('[data-word]').each(function(){
+				levelObject.words.push($(this).data('word'));
+			});
+
+			if(!levelObject.solution) {
+				//	Show error
+				$('#error').html("You must set a solution!");
+				return;
+			}
+
+			//	If we already have an initial matrix
+			if(initialMatrix) {
+				levelObject.initialMatrix = initialMatrix;
+			} else {
+				//	Grab the first two in the solution?
+				levelObject.initialMatrix = [levelObject.solution[levelObject.solution.length - 1], levelObject.solution[levelObject.solution.length - 2]];
+			}
+
+
+/*
+
+
+		{
+			//	Um, geek stuff? TODO: Update the words
+			levelTitle: "Nerd burger",
+			levelNumber: 1,
+			//	What words are to be placed
+			words: ['matrix', 'smart', 'geek', 'math', 'exon'],
+			//	Full solution 
+			solution: [{"word":"math","x":0,"y":9},{"word":"smart","x":2,"y":5,"vert":"true"},{"word":"matrix","x":2,"y":6},{"word":"exon","x":3,"y":0,"vert":"true"}],
+
+			initialMatrix: [{"word":"nerd","x":3,"y":3},{"word":"burger","x":5,"y":1,"vert":"true"}],
+
+			//	Score offset to allow for words already placed
+			initScore: 30
+		},
+
+
+*/
+
+			$('#editOutput').val(JSON.stringify(levelObject));
+		});
+
+	});
+
+	//	Setup KO model
+	var ViewModel = function(){
+		var self = this;
+		self.placedWordSelected = ko.observable();
+		self.placedWords = ko.observableArray();
+	};
+
+	window.viewModel = new ViewModel();
+
+	$(function(){
+		ko.applyBindings(viewModel);
+	})
+
+
+	//	Setup drag and drop
+	$(function() {
+		
+
+		//	Doesn't work well - so let's not do this yet...
+		return;
+
+
+
+		var snaptoElement;
+		$(".draggable").draggable({
+			cursorAt: {
+				left: 6,
+				top: 12
+			},
+			activeClass: "ui-state-hover",
+			snapMode: 'inner',
+			snap: '#matrix .cell',
+			revert: 'invalid',
+			stop: function(event, ui) {
+
+				//	Need to figue out the left-most snapped element.
+				//	Note: snapping is quite screwy in jquery ui - do not try and use it.
+
+		        /* Get the possible snap targets: */
+		        var snapped = $(this).data('ui-draggable').snapElements;
+
+		        /* Pull out only the snap targets that are "snapping": */
+		        var snappedTo = $.map(snapped, function(element) {
+		            return element.snapping ? element.item : null;
+		        });
+
+		        /* Process the results in the snappedTo array! */
+		        //debug(snappedTo);	//, snaptoElement.obj.snapElement);
+
+			},
+			snapped: function(event, ui) {
+	    		// Do something with 'ui.snapElement'...
+        		debug(ui.snapElement);
+    		}
+		});
+		
+		$("#matrix").find('.cell').droppable({
+		    hoverClass: "ui-state-active",
+		    greedy: true,
+		    accept: function(){
+		    	debug(this);
+		    	return true;
+		    },
+			activate: function( event, ui ) {
+				//debug(this);
+			},
+			drop: function( event, ui ) {
+				var target = (event)? event.target: null,
+					x = parseInt($(target).data('x'), 10),
+					y = parseInt($(target).data('y'), 10);
+
+				$( this )
+					.addClass( "ui-state-highlight" );
+
+				//debug(this, 'dropped on', target, x, y);
+				//	Looks like it is always near the middle.
+
+				return false;
+			}
+		});
+	});
+
+}());
+
+</script>
+
+</body>
+</html>
