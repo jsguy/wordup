@@ -55,6 +55,7 @@ function create() {
     ball.anchor.setTo(0.5, 0.5);
     ball.body.collideWorldBounds = true;
     ball.body.bounce.setTo(1, 1);
+    ball.body.rebound = false;
     ball.animations.add('spin', [ 'ball_1.png', 'ball_2.png', 'ball_3.png', 'ball_4.png', 'ball_5.png' ], 50, true, false);
     ball.events.onOutOfBounds.add(ballLost, this);
 
@@ -71,7 +72,7 @@ function create() {
 function update () {
 
     //  Fun, but a little sea-sick inducing :) Uncomment if you like!
-    //  starField.tilePosition.x += (game.input.speed.x / 2);
+    starField.tilePosition.x -= (game.input.speed.x / 16); // I like!
 
     paddle.x = game.input.x;
 
@@ -169,25 +170,10 @@ function ballHitBrick (_ball, _brick) {
 
 function ballHitPaddle (_ball, _paddle) {
 
-    var diff = 0;
-
-    if (_ball.x < _paddle.x)
-    {
-        //  Ball is on the left-hand side of the paddle
-        diff = _paddle.x - _ball.x;
-        _ball.body.velocity.x = (-10 * diff);
-    }
-    else if (_ball.x > _paddle.x)
-    {
-        //  Ball is on the right-hand side of the paddle
-        diff = _ball.x -_paddle.x;
-        _ball.body.velocity.x = (10 * diff);
-    }
-    else
-    {
-        //  Ball is perfectly in the middle
-        //  Add a little random X to stop it bouncing straight up!
-        _ball.body.velocity.x = 2 + Math.random() * 8;
-    }
+    //  When ball is on the left-hand side of the paddle, diff is -ve
+    //  When ball is on the right-hand side of the paddle, diff is +ve
+    //  When ball is perfectly in the middle, diff is 0 (no randomness)
+    var diff = _ball.x - _paddle.x;
+    _ball.body.velocity.x = 10 * diff;
 
 }
