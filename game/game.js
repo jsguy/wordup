@@ -7,12 +7,12 @@ var game = new Phaser.Game(
         preload: function preload() {
             game.load.atlas(
                 'breakout', 
-                'phaser/examples/assets/games/breakout/breakout.png', 
-                'phaser/examples/assets/games/breakout/breakout.json'
+                'resources/breakout.png', 
+                'resources/breakout.json'
             );
             game.load.image(
                 'starfield', 
-                'phaser/examples/assets/misc/starfield.jpg'
+                'resources/starfield.jpg'
             );
         },
         create: create, 
