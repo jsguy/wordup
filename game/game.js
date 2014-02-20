@@ -4,6 +4,7 @@ var game = new Phaser.Game(
     800, 600, Phaser.AUTO, 
     'phaser-example', 
     { 
+        //  Stuff we load into the game
         preload: function preload() {
             game.load.atlas(
                 'breakout', 
@@ -15,11 +16,15 @@ var game = new Phaser.Game(
                 'resources/starfield.jpg'
             );
         },
+        //  Setup the game world
         create: create, 
+        //  Run for every frame
         update: update 
     }
 );
 
+//  The pattern here seems to be global variables 
+//  I'd like to use knockout view model(s) here
 
 var ball, paddle, bricks, ballOnPaddle = true, 
     lives = 3, score = 0, 
@@ -67,7 +72,7 @@ function create() {
 
 }
 
-//  This is run quite often...
+//  Note: this is run for every frame...
 function update () {
 
     //  Fun, but a little sea-sick inducing :) Uncomment if you like!
