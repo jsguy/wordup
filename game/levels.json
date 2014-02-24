@@ -1,0 +1,35 @@
+[
+	{
+		"levelTitle":"Nerd burger",
+		"levelNumber": "1",
+		"words":["matrix", "smart", "geek", "math", "exon"],
+		"solution":[
+			{"word":"math", "x":"0","y":"9"},
+			{"word":"smart", "x":"2","y":"5","vert":"true"},
+			{"word":"matrix", "x":"2","y":"6"},
+			{"word":"geek", "x":"1","y":"0"},
+			{"word":"exon", "x":"3","y":"0","vert":"true"}
+		],
+		"initialMatrix":[
+			{"word":"nerd", "x":"3","y":"3"},
+			{"word":"burger", "x":"5","y":"1","vert":"true"}
+		]
+	},
+	{
+		"levelTitle":"Starring warrior",
+		"levelNumber":"2",
+		"words":["force", "nerf", "herder", "shot", "gungan", "first"],
+		"solution":[
+			{"word":"nerf", "x":"9","y":"5","vert":"true"},
+			{"word":"first", "x":"4","y":"1","vert":"true"},
+			{"word":"force", "x":"5","y":"6"},
+			{"word":"gungan", "x":"2","y":"8"},
+			{"word":"shot", "x":"6","y":"1"},
+			{"word":"herder", "x":"7","y":"1","vert":"true"}
+		],
+		"initialMatrix":[
+			{"word":"warrior", "x":"1","y":"3"},
+			{"word":"starring", "x":"2","y":"1","vert":"true"}
+		]
+	}
+]
