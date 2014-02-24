@@ -142,7 +142,8 @@ var gameservice = function(args){
 	},
 
 
-	//	Returns a vertical version of the matrix - makes checking words easier
+	//	Returns a vertical version of the matrix
+	//	This makes checking and placing vertical words easier
 	verticalMatrix = function(flipMatrix) {
 		//	Create vertical matrix
 		var vMatrix = [],
@@ -157,31 +158,9 @@ var gameservice = function(args){
 
 		return vMatrix;
 	},
-	//	Renders the contents of the matrix into the DOM
-	renderMatrix = function(vert, target) {
-		var myMatrix = (vert)? verticalMatrix(): matrix;
 
-		target = target || '#matrix';
-
-		//	Create matrix html
-		var matrixHtml = "";
-		for(var y = 0; y < args.matrixSize[1]; y += 1) {
-			for(var x = 0; x < args.matrixSize[0]; x += 1) {
-				//	DOM
-				matrixHtml += Mustache.compile(cellTmpl)({
-					x: x,
-					y: y,
-					letter: myMatrix[x][y]? myMatrix[x][y]: ""
-				});
-			}
-		}
-
-		//	Inject into DOM
-		$(target).html(matrixHtml);
-	},
-
-
-	//	Places a word in the matrix (without checking if it can be)
+	//	Places a word in the matrix
+	//	Note: this is done without checking if it can be placed
 	placeWordInMatrix = function(word, x, y, vert) {
 		var count = 0,
 			myMatrix = args.matrix;
@@ -244,12 +223,35 @@ var gameservice = function(args){
 		return score;
 	},
 
+	// //	Shows the score on the board
+	// showScore = function(score) {
+
+	// 	score = score || 0;
+
+	//     var text = "SCORE: " + score;
+	//     var style = { font: "32px Arial", fill: "#000044", align: "right" };
+
+	//     //var t = game.add.text(game.world.centerX, game.world.centerY, text, style);
+	//     //t.anchor.setTo(0.5, 0.5);
+	//     //scoreText = game.add.text(game.world.width, 0, text, style);
+	//     //scoreText.anchor.setTo(1, 0);
+	// },
+
 
 	//	This is run in the update loop
 	update = function(){
 		for(i = 0; i < updateQueue.length; i += 1) {
 			updateQueue[i]();
 		}
+
+		//	LOL, don't do this, just testing
+		// var x = parseInt(Math.random() * 100, 10);
+		// if(x % 13 == 0) {
+		// 	scoreText.setText(x);
+		// 	showScore();
+
+		// }
+
 	};
 
 	return {
