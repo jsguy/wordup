@@ -4,8 +4,7 @@
 //	Requires: phaser, knockout, lodash
 //
 var game = new Phaser.Game(
-	//	Arbritrary size
-	//	TODO: work out how to scale this for the native resolution
+	//	Arbritrary size - TODO: work out how to scale this for the native resolution
 	640, 960, 
 	Phaser.AUTO, 
 	'wordup', {

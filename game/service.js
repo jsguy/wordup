@@ -22,6 +22,7 @@ var gameservice = function(args){
 		//	Intersecting at end of word = x 3
 		//	
 		scoreTable: {a: 1, b: 2, c: 2, d: 2, e: 1, f: 3, g: 2, h: 2, i: 1, j: 3, k: 3, l: 3, m: 2, n: 2, o: 1, p: 2, q: 4, r: 1, s: 1, t: 1, u: 2, v: 3, w: 2, x: 4, y: 3, z: 5 },
+		initScore: 0
 	}, args || {}),
 	//	Queue for functions to run in the update loop
 	//	CAUTION: these need to be optimal, as they are run each frame
@@ -37,8 +38,6 @@ var gameservice = function(args){
 			updateQueue.splice(index, 1);
 		}
 	};
-
-	console.log(args);
 
 	//  Creates a word and adds it into the 
 	var createWord = function(word, x, y, vert) {
@@ -100,7 +99,6 @@ var gameservice = function(args){
 				myWordSprite.hasDragged = true;
 			}
 			myWordSprite.spriteUpdate = bind(function(){
-
 				myWord.x = myWordSprite.x - myWordSprite.origX;
 				myWord.y = myWordSprite.y - myWordSprite.origY;
 			});
@@ -114,6 +112,11 @@ var gameservice = function(args){
 			myWord.y = myWordSprite.y - myWordSprite.origY;
 			
 			//	TODO: limit to within grid
+
+			//	TODO: Ensure you can actually place the word here
+
+			//	TODO: Update score
+			//console.log('scoreMatrix', service.scoreMatrix());
 
 		});
 	},
@@ -199,12 +202,48 @@ var gameservice = function(args){
 		}
 
 		//	Add onto game board
-		// service.createWord("testing", 1, 4);
-		// service.createWord("wordup", 1, 4);
 		service.createWord(word, x, y, vert);
 
 		args.matrix = (vert)? verticalMatrix(myMatrix): myMatrix;
 	},
+
+
+	//	Scores the contents of the matrix
+	scoreMatrix = function() {
+		myMatrix = args.matrix;
+		//	Set the inital score offset (based on letters already in the matrix)
+		var score = (args.initScore)? -args.initScore: 0,
+			xWidth = args.matrixSize[0] - 1,
+			yWidth = args.matrixSize[1] - 1,
+			//	See how many letters are near this letter
+			peekAround = function(x, y) {
+				var result = 0;
+				if( y > 0 && myMatrix[x][y-1] && myMatrix[x][y-1] !== "") {
+					result += 1;
+				}
+				if( y < yWidth && myMatrix[x][y+1] && myMatrix[x][y+1] !== "") {
+					result += 1;
+				}
+				if( x > 0 && myMatrix[x-1][y] && myMatrix[x-1][y] !== "") {
+					result += 1;
+				}
+				if( x < xWidth && myMatrix[x+1][y] && myMatrix[x+1][y] !== "") {
+					result += 1;
+				}
+				return result;
+			};
+
+		for(var y = 0; y < args.matrixSize[1]; y += 1) {
+			for(var x = 0; x < args.matrixSize[0]; x += 1) {
+				if(myMatrix[x][y] && myMatrix[x][y] !== "" ) {
+					score += peekAround(x,y) + args.scoreTable[myMatrix[x][y]];
+				}
+			}
+		}
+
+		return score;
+	},
+
 
 	//	This is run in the update loop
 	update = function(){
@@ -216,7 +255,8 @@ var gameservice = function(args){
 	return {
 		createWord: createWord,
 		update: update,
-		initMatrix: initMatrix
+		initMatrix: initMatrix,
+		scoreMatrix: scoreMatrix
 	};
 
 };
