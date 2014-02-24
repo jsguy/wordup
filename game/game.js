@@ -23,9 +23,7 @@ var tileX = 64, tileY = 64,
 
 //	Load resources
 function preload() {
-	game.load.image('grid', 'phaser/examples/assets/tests/debug-grid-1920x1920.png');
-	game.load.image('atari1', 'phaser/examples/assets/sprites/atari130xe.png');
-	game.load.image('atari2', 'phaser/examples/assets/sprites/atari800xl.png');
+	game.load.image('grid', 'resources/board.jpg');
 	game.load.atlas('letters', 'resources/letter_tiles.png', 'resources/letter_tiles.json');
 
 	//  Show the whole thing http://www.html5gamedevs.com/topic/1380-how-to-scale-entire-game-up/
