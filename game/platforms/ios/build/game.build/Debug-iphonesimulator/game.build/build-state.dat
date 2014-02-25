@@ -1,0 +1,823 @@
+Tgame
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Info.plist /Users/david/source/wordup/game/platforms/ios/game/game-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Script-304B58A110DAC018002A0835.sh
+cCpResource game/config.xml build/emulator/game.app/config.xml
+cCpResource game/Resources/icons/icon-76.png build/emulator/game.app/icon-76.png
+cCpResource game/Resources/icons/icon-40@2x.png build/emulator/game.app/icon-40@2x.png
+cCpResource game/Resources/icons/icon-72.png build/emulator/game.app/icon-72.png
+cCpResource game/Resources/icons/icon.png build/emulator/game.app/icon.png
+cCpResource game/Resources/icons/icon@2x.png build/emulator/game.app/icon@2x.png
+cCopyStringsFile /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/en.lproj/Localizable.strings game/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.xib
+cCpResource game/Resources/icons/icon-50.png build/emulator/game.app/icon-50.png
+cCpResource game/Resources/icons/icon-60@2x.png build/emulator/game.app/icon-60@2x.png
+cCopyStringsFile /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/de.lproj/Localizable.strings game/Resources/de.lproj/Localizable.strings
+cCpResource game/Resources/icons/icon-small.png build/emulator/game.app/icon-small.png
+cCpResource game/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/game.app/Default-Landscape@2x~ipad.png
+cCpResource game/Resources/splash/Default-Landscape~ipad.png build/emulator/game.app/Default-Landscape~ipad.png
+cCpResource game/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/game.app/Default-Portrait@2x~ipad.png
+cCpResource game/Resources/icons/icon-small@2x.png build/emulator/game.app/icon-small@2x.png
+cCpResource game/Resources/splash/Default-Portrait~ipad.png build/emulator/game.app/Default-Portrait~ipad.png
+cCpResource game/Resources/icons/icon-40.png build/emulator/game.app/icon-40.png
+cCpResource game/Resources/splash/Default@2x~iphone.png build/emulator/game.app/Default@2x~iphone.png
+cCpResource game/Resources/icons/icon-60.png build/emulator/game.app/icon-60.png
+cCpResource game/Resources/splash/Default~iphone.png build/emulator/game.app/Default~iphone.png
+cCpResource game/Resources/splash/Default-568h@2x~iphone.png build/emulator/game.app/Default-568h@2x~iphone.png
+cCpResource game/Resources/icons/icon-50@2x.png build/emulator/game.app/icon-50@2x.png
+cCpResource game/Resources/icons/icon-76@2x.png build/emulator/game.app/icon-76@2x.png
+cCpResource game/Resources/icons/icon-72@2x.png build/emulator/game.app/icon-72@2x.png
+cProcessPCH /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/game-Prefix-gqzmvsbpussnwtfjfaylsclsijhf/game-Prefix.pch.pch game/game-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o /Users/david/source/wordup/game/platforms/ios/game/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/AppDelegate.o /Users/david/source/wordup/game/platforms/ios/game/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/MainViewController.o /Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/game normal i386
+cGenerateDSYMFile /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app.dSYM /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/game
+cTouch /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000529D44B90000000000000176
+t1386038457
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c0000000052552BF200000000000003B5
+t1381313522
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000529D443F00000000000001A0
+t1386038335
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000529D44400000000000059350
+t1386038336
+s365392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000529D44410000000000445870
+t1386038337
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000529D444100000000000EC820
+t1386038337
+s968736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000529D444300000000001BA530
+t1386038339
+s1811760
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app
+t1393184826
+s1020
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app.dSYM
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default-568h@2x~iphone.png
+t1393184826
+s34225
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default-Landscape@2x~ipad.png
+t1393184826
+s77300
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default-Landscape~ipad.png
+t1393184826
+s34935
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default-Portrait@2x~ipad.png
+t1393184826
+s76546
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default-Portrait~ipad.png
+t1393184826
+s34278
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default@2x~iphone.png
+t1393184826
+s29475
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default~iphone.png
+t1393184826
+s10394
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Info.plist
+t1393184825
+s1228
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/MainViewController.nib
+t1393184826
+s1332
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/PkgInfo
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/config.xml
+t1393184826
+s4830
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/de.lproj/Localizable.strings
+t1393184826
+s280
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/en.lproj/Localizable.strings
+t1393184826
+s166
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/game
+t1393184826
+s279436
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-40.png
+t1393184826
+s4082
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-40@2x.png
+t1393184826
+s7411
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-50.png
+t1393184826
+s4874
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-50@2x.png
+t1393184826
+s9611
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-60.png
+t1393184826
+s5811
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-60@2x.png
+t1393184826
+s11924
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-72.png
+t1393184826
+s4944
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-72@2x.png
+t1393184826
+s11706
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-76.png
+t1393184826
+s7025
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-76@2x.png
+t1393184826
+s15262
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-small.png
+t1393184826
+s3294
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-small@2x.png
+t1393184826
+s5608
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon.png
+t1393184826
+s3902
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon@2x.png
+t1393184826
+s7869
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a
+c00000000530A503900000000000D6DD8
+t1393184825
+s880088
+
+N/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/AppDelegate.o
+t1393184826
+s77540
+
+N/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/MainViewController.o
+t1393184826
+s53500
+
+N/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/game.LinkFileList
+c00000000530A50390000000000000186
+t1393184825
+s390
+
+N/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o
+t1393184826
+s3060
+
+N/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Script-304B58A110DAC018002A0835.sh
+c00000000530A5039000000000000002D
+t1393184825
+s45
+
+N/Users/david/source/wordup/game/platforms/ios/game/Classes/AppDelegate.m
+c000000005309C4AC000000000000139F
+t1393149100
+s5023
+
+N/Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.m
+c000000005309C4AC0000000000001265
+t1393149100
+s4709
+
+N/Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.xib
+c000000005309C4AC0000000000001759
+t1393149100
+s5977
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/de.lproj/Localizable.strings
+c000000005309C4AC00000000000004BF
+t1393149100
+s1215
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/en.lproj/Localizable.strings
+c000000005309C4AC00000000000004AA
+t1393149100
+s1194
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-40.png
+c000000005309C4AC0000000000000FF2
+t1393149100
+s4082
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-40@2x.png
+c000000005309C4AC0000000000001CF3
+t1393149100
+s7411
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-50.png
+c000000005309C4AC000000000000130A
+t1393149100
+s4874
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-50@2x.png
+c000000005309C4AC000000000000258B
+t1393149100
+s9611
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-60.png
+c000000005309C4AC00000000000016B3
+t1393149100
+s5811
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-60@2x.png
+c000000005309C4AC0000000000002E94
+t1393149100
+s11924
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-72.png
+c000000005309C4AC0000000000001350
+t1393149100
+s4944
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-72@2x.png
+c000000005309C4AC0000000000002DBA
+t1393149100
+s11706
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-76.png
+c000000005309C4AC0000000000001B71
+t1393149100
+s7025
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-76@2x.png
+c000000005309C4AC0000000000003B9E
+t1393149100
+s15262
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-small.png
+c000000005309C4AC0000000000000CDE
+t1393149100
+s3294
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-small@2x.png
+c000000005309C4AC00000000000015E8
+t1393149100
+s5608
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon.png
+c000000005309C4AC0000000000000F3E
+t1393149100
+s3902
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon@2x.png
+c000000005309C4AC0000000000001EBD
+t1393149100
+s7869
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default-568h@2x~iphone.png
+c000000005309C4AC00000000000085B1
+t1393149100
+s34225
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005309C4AC0000000000012DF4
+t1393149100
+s77300
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default-Landscape~ipad.png
+c000000005309C4AC0000000000008877
+t1393149100
+s34935
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005309C4AC0000000000012B02
+t1393149100
+s76546
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default-Portrait~ipad.png
+c000000005309C4AC00000000000085E6
+t1393149100
+s34278
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default@2x~iphone.png
+c000000005309C4AC0000000000007323
+t1393149100
+s29475
+
+N/Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default~iphone.png
+c000000005309C4AC000000000000289A
+t1393149100
+s10394
+
+N/Users/david/source/wordup/game/platforms/ios/game/config.xml
+c00000000530A503400000000000012DE
+t1393184820
+s4830
+
+N/Users/david/source/wordup/game/platforms/ios/game/game-Info.plist
+c00000000530A503400000000000009D1
+t1393184820
+s2513
+
+N/Users/david/source/wordup/game/platforms/ios/game/game-Prefix.pch
+c000000005309C4AC00000000000003B9
+t1393149100
+s953
+
+N/Users/david/source/wordup/game/platforms/ios/game/main.m
+c000000005309C4AC0000000000000456
+t1393149100
+s1110
+
+N/var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/game-Prefix-gqzmvsbpussnwtfjfaylsclsijhf/game-Prefix.pch.pch
+t1393149115
+s5342136
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies51fae2b987bab841^ddcde3b987bab841^---0#1#1#--18"Check dependencies36"4A212FBF-A1AA-4EF4-9AFB-ADA4184A2A32-
+
+CCompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/AppDelegate.o /Users/david/source/wordup/game/platforms/ios/game/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877626.191954
+e414877626.289517
+r1
+xCompileC
+xbuild/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/AppDelegate.o
+x/Users/david/source/wordup/game/platforms/ios/game/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/game/Classes/AppDelegate.m
+d/Users/david/source/wordup/game/platforms/ios/game/Classes/AppDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/david/source/wordup/game/platforms/ios/game/Classes/AppDelegate.m187"CompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/AppDelegate.o game/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerae4731ba87bab841^b81d4aba87bab841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/david/source/wordup/game/platforms/ios/game/Classes/AppDelegate.m0000000000000000^3811"CompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/AppDelegate.o game/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Users/david/source/wordup/game/platforms/ios/build/emulator/usr/local/lib/include -I/Users/david/source/wordup/game/platforms/ios/build/UninstalledProducts/include -I/Users/david/source/wordup/game/platforms/ios/build/emulator -I/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/game-Prefix-gqzmvsbpussnwtfjfaylsclsijhf/game-Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/AppDelegate.dia -c /Users/david/source/wordup/game/platforms/ios/game/Classes/AppDelegate.m -o /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/AppDelegate.o36"350935C5-6F3F-4240-A56D-ED2AD0560C35-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/MainViewController.o /Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877626.192378
+e414877626.275652
+r1
+xCompileC
+xbuild/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/MainViewController.o
+x/Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.m
+d/Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.m201"CompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/MainViewController.o game/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler906531ba87bab841^369046ba87bab841^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.m0000000000000000^3853"CompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/MainViewController.o game/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Users/david/source/wordup/game/platforms/ios/build/emulator/usr/local/lib/include -I/Users/david/source/wordup/game/platforms/ios/build/UninstalledProducts/include -I/Users/david/source/wordup/game/platforms/ios/build/emulator -I/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/game-Prefix-gqzmvsbpussnwtfjfaylsclsijhf/game-Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/MainViewController.dia -c /Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.m -o /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/MainViewController.o36"28E688F9-A80E-4A2D-9785-68BB421C5515-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o /Users/david/source/wordup/game/platforms/ios/game/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877626.191630
+e414877626.219785
+r1
+xCompileC
+xbuild/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o
+x/Users/david/source/wordup/game/platforms/ios/game/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/game/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/david/source/wordup/game/platforms/ios/game/main.m165"CompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o game/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera12f31ba87bab841^4e4338ba87bab841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/david/source/wordup/game/platforms/ios/game/main.m0000000000000000^3753"CompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o game/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Users/david/source/wordup/game/platforms/ios/build/emulator/usr/local/lib/include -I/Users/david/source/wordup/game/platforms/ios/build/UninstalledProducts/include -I/Users/david/source/wordup/game/platforms/ios/build/emulator -I/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/game-Prefix-gqzmvsbpussnwtfjfaylsclsijhf/game-Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.dia -c /Users/david/source/wordup/game/platforms/ios/game/main.m -o /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o36"3BAC9374-8EC8-4AAA-8A5C-6DAE3145F3FD-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCompileXIB /Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.xib
+s414877626.167161
+e414877626.190260
+r1
+xCompileXIB
+x/Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compiling /Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.xib46"CompileXIB game/Classes/MainViewController.xib8cf42aba87bab841^46b530ba87bab841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.xib0000000000000000^1090"CompileXIB game/Classes/MainViewController.xib    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/MainViewController.nib /Users/david/source/wordup/game/platforms/ios/game/Classes/MainViewController.xib36"83CAAF82-CA1A-49D0-867D-A647A853442C-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCopyStringsFile /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/de.lproj/Localizable.strings game/Resources/de.lproj/Localizable.strings
+s414877626.171120
+e414877626.175419
+r1
+xCopyStringsFile
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/de.lproj/Localizable.strings
+xgame/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy game/Resources/de.lproj/Localizable.strings112"CopyStringsFile build/emulator/game.app/de.lproj/Localizable.strings game/Resources/de.lproj/Localizable.strings70ea2bba87bab841^8cf62cba87bab841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/david/source/wordup/game/platforms/ios/game/Resources/de.lproj/Localizable.strings0000000000000000^892"CopyStringsFile build/emulator/game.app/de.lproj/Localizable.strings game/Resources/de.lproj/Localizable.strings    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/de.lproj -- game/Resources/de.lproj/Localizable.strings36"9A1F20F9-9CA9-404F-800C-77A29C75689D-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCopyStringsFile /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/en.lproj/Localizable.strings game/Resources/en.lproj/Localizable.strings
+s414877626.166839
+e414877626.171772
+r1
+xCopyStringsFile
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/en.lproj/Localizable.strings
+xgame/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy game/Resources/en.lproj/Localizable.strings112"CopyStringsFile build/emulator/game.app/en.lproj/Localizable.strings game/Resources/en.lproj/Localizable.stringsc8ee2aba87bab841^be2d2cba87bab841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/david/source/wordup/game/platforms/ios/game/Resources/en.lproj/Localizable.strings0000000000000000^892"CopyStringsFile build/emulator/game.app/en.lproj/Localizable.strings game/Resources/en.lproj/Localizable.strings    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/en.lproj -- game/Resources/en.lproj/Localizable.strings36"A0993E0A-F913-43D0-B496-16CA740B5278-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon-40.png build/emulator/game.app/icon-40.png
+s414877626.181678
+e414877626.183678
+r1
+xCpResource
+xgame/Resources/icons/icon-40.png
+xbuild/emulator/game.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/game.app/icon-40.png79"CpResource game/Resources/icons/icon-40.png build/emulator/game.app/icon-40.pngd6c42eba87bab841^0dfe2eba87bab841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-40.png0034e44cdfffdf42^904"CpResource game/Resources/icons/icon-40.png build/emulator/game.app/icon-40.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-40.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"B30F9164-EEB6-481B-B41A-F4D4C765FBEB-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon-40@2x.png build/emulator/game.app/icon-40@2x.png
+s414877626.163996
+e414877626.165845
+r1
+xCpResource
+xgame/Resources/icons/icon-40@2x.png
+xbuild/emulator/game.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/game.app/icon-40@2x.png85"CpResource game/Resources/icons/icon-40@2x.png build/emulator/game.app/icon-40@2x.pngf5132aba87bab841^88852aba87bab841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-40@2x.png0034e44cdfffdf42^913"CpResource game/Resources/icons/icon-40@2x.png build/emulator/game.app/icon-40@2x.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-40@2x.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"E4B010A9-2764-4B97-A199-96FD8E95D954-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon-50.png build/emulator/game.app/icon-50.png
+s414877626.168016
+e414877626.170962
+r1
+xCpResource
+xgame/Resources/icons/icon-50.png
+xbuild/emulator/game.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/game.app/icon-50.png79"CpResource game/Resources/icons/icon-50.png build/emulator/game.app/icon-50.png83192bba87bab841^8e212cba87bab841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-50.png0034e44cdfffdf42^904"CpResource game/Resources/icons/icon-50.png build/emulator/game.app/icon-50.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-50.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"B4ACF4A0-6FD3-4D09-B800-92D7A0A65EE0-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon-50@2x.png build/emulator/game.app/icon-50@2x.png
+s414877626.184793
+e414877626.186587
+r1
+xCpResource
+xgame/Resources/icons/icon-50@2x.png
+xbuild/emulator/game.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/game.app/icon-50@2x.png85"CpResource game/Resources/icons/icon-50@2x.png build/emulator/game.app/icon-50@2x.png66882fba87bab841^ddcd2fba87bab841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-50@2x.png0034e44cdfffdf42^913"CpResource game/Resources/icons/icon-50@2x.png build/emulator/game.app/icon-50@2x.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-50@2x.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"87897DD4-D850-4E1C-9A13-A3A39F5A1B84-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon-60.png build/emulator/game.app/icon-60.png
+s414877626.183087
+e414877626.184606
+r1
+xCpResource
+xgame/Resources/icons/icon-60.png
+xbuild/emulator/game.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/game.app/icon-60.png79"CpResource game/Resources/icons/icon-60.png build/emulator/game.app/icon-60.png1d022fba87bab841^ff422fba87bab841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-60.png0034e44cdfffdf42^904"CpResource game/Resources/icons/icon-60.png build/emulator/game.app/icon-60.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-60.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"2E57B89A-36D0-4F1A-B47A-ECFB8F2313FC-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon-60@2x.png build/emulator/game.app/icon-60@2x.png
+s414877626.169758
+e414877626.172009
+r1
+xCpResource
+xgame/Resources/icons/icon-60@2x.png
+xbuild/emulator/game.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/game.app/icon-60@2x.png85"CpResource game/Resources/icons/icon-60@2x.png build/emulator/game.app/icon-60@2x.png5c922bba87bab841^1ba02cba87bab841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-60@2x.png0034e44cdfffdf42^913"CpResource game/Resources/icons/icon-60@2x.png build/emulator/game.app/icon-60@2x.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-60@2x.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"8196D872-3F16-4391-8843-4E08ADCC88AD-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon-72.png build/emulator/game.app/icon-72.png
+s414877626.164441
+e414877626.166667
+r1
+xCpResource
+xgame/Resources/icons/icon-72.png
+xbuild/emulator/game.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/game.app/icon-72.png79"CpResource game/Resources/icons/icon-72.png build/emulator/game.app/icon-72.pngea3c2aba87bab841^d7c02aba87bab841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-72.png0034e44cdfffdf42^904"CpResource game/Resources/icons/icon-72.png build/emulator/game.app/icon-72.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-72.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"6BB42A64-BF8E-42F2-943A-4F644400689E-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon-72@2x.png build/emulator/game.app/icon-72@2x.png
+s414877626.186732
+e414877626.187805
+r1
+xCpResource
+xgame/Resources/icons/icon-72@2x.png
+xbuild/emulator/game.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/game.app/icon-72@2x.png85"CpResource game/Resources/icons/icon-72@2x.png build/emulator/game.app/icon-72@2x.pngf3e32fba87bab841^8a2230ba87bab841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-72@2x.png0034e44cdfffdf42^913"CpResource game/Resources/icons/icon-72@2x.png build/emulator/game.app/icon-72@2x.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-72@2x.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"CBD4F3F1-FD7D-4021-8D09-A485D4312668-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon-76.png build/emulator/game.app/icon-76.png
+s414877626.163785
+e414877626.165801
+r1
+xCpResource
+xgame/Resources/icons/icon-76.png
+xbuild/emulator/game.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/game.app/icon-76.png79"CpResource game/Resources/icons/icon-76.png build/emulator/game.app/icon-76.png4a0c2aba87bab841^588c2aba87bab841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-76.png0034e44cdfffdf42^904"CpResource game/Resources/icons/icon-76.png build/emulator/game.app/icon-76.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-76.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"010E23E6-7DFD-4A2D-BA6E-7ABDF5DC1C86-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon-76@2x.png build/emulator/game.app/icon-76@2x.png
+s414877626.186105
+e414877626.188187
+r1
+xCpResource
+xgame/Resources/icons/icon-76@2x.png
+xbuild/emulator/game.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/game.app/icon-76@2x.png85"CpResource game/Resources/icons/icon-76@2x.png build/emulator/game.app/icon-76@2x.pngcbd52fba87bab841^213a30ba87bab841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-76@2x.png0034e44cdfffdf42^913"CpResource game/Resources/icons/icon-76@2x.png build/emulator/game.app/icon-76@2x.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-76@2x.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"F6C8C606-74D4-4558-82B6-4588FD9ED7F6-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon-small.png build/emulator/game.app/icon-small.png
+s414877626.173569
+e414877626.175506
+r1
+xCpResource
+xgame/Resources/icons/icon-small.png
+xbuild/emulator/game.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/game.app/icon-small.png85"CpResource game/Resources/icons/icon-small.png build/emulator/game.app/icon-small.png21932cba87bab841^01fb2cba87bab841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-small.png0034e44cdfffdf42^913"CpResource game/Resources/icons/icon-small.png build/emulator/game.app/icon-small.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-small.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"F2511FB8-FFE2-46EB-84B7-8A76900904CD-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon-small@2x.png build/emulator/game.app/icon-small@2x.png
+s414877626.177654
+e414877626.179400
+r1
+xCpResource
+xgame/Resources/icons/icon-small@2x.png
+xbuild/emulator/game.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/game.app/icon-small@2x.png91"CpResource game/Resources/icons/icon-small@2x.png build/emulator/game.app/icon-small@2x.png6c982dba87bab841^9df12dba87bab841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon-small@2x.png0034e44cdfffdf42^922"CpResource game/Resources/icons/icon-small@2x.png build/emulator/game.app/icon-small@2x.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon-small@2x.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"3E0D2D73-384A-4F77-ACBE-6D1987382737-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon.png build/emulator/game.app/icon.png
+s414877626.165455
+e414877626.166759
+r1
+xCpResource
+xgame/Resources/icons/icon.png
+xbuild/emulator/game.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/emulator/game.app/icon.png73"CpResource game/Resources/icons/icon.png build/emulator/game.app/icon.pngc9762aba87bab841^eece2aba87bab841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon.png0034e44cdfffdf42^895"CpResource game/Resources/icons/icon.png build/emulator/game.app/icon.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"B9D35600-F9A4-43E3-A211-078D3128398C-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/icons/icon@2x.png build/emulator/game.app/icon@2x.png
+s414877626.166431
+e414877626.169274
+r1
+xCpResource
+xgame/Resources/icons/icon@2x.png
+xbuild/emulator/game.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/game.app/icon@2x.png79"CpResource game/Resources/icons/icon@2x.png build/emulator/game.app/icon@2x.png99d62aba87bab841^7b162cba87bab841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/icon@2x.png0034e44cdfffdf42^904"CpResource game/Resources/icons/icon@2x.png build/emulator/game.app/icon@2x.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/icons/icon@2x.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"CC16D97A-3282-4FB1-A5ED-C88AC4513786-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/splash/Default-568h@2x~iphone.png build/emulator/game.app/Default-568h@2x~iphone.png
+s414877626.184407
+e414877626.185810
+r1
+xCpResource
+xgame/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/game.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/game.app/Default-568h@2x~iphone.png110"CpResource game/Resources/splash/Default-568h@2x~iphone.png build/emulator/game.app/Default-568h@2x~iphone.png2d5f2fba87bab841^a99f2fba87bab841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default-568h@2x~iphone.png0034e44cdfffdf42^951"CpResource game/Resources/splash/Default-568h@2x~iphone.png build/emulator/game.app/Default-568h@2x~iphone.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default-568h@2x~iphone.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"A4BDF53B-4231-403A-A3DD-254F42F6E5DD-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/game.app/Default-Landscape@2x~ipad.png
+s414877626.174995
+e414877626.177468
+r1
+xCpResource
+xgame/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/game.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/game.app/Default-Landscape@2x~ipad.png116"CpResource game/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/game.app/Default-Landscape@2x~ipad.png58e72cba87bab841^99822dba87bab841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default-Landscape@2x~ipad.png0034e44cdfffdf42^960"CpResource game/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/game.app/Default-Landscape@2x~ipad.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default-Landscape@2x~ipad.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"1BA3DE12-B947-42B7-93AA-AC35EDD533B7-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/splash/Default-Landscape~ipad.png build/emulator/game.app/Default-Landscape~ipad.png
+s414877626.176162
+e414877626.181023
+r1
+xCpResource
+xgame/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/game.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/game.app/Default-Landscape~ipad.png110"CpResource game/Resources/splash/Default-Landscape~ipad.png build/emulator/game.app/Default-Landscape~ipad.png7c432dba87bab841^f3742eba87bab841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default-Landscape~ipad.png0034e44cdfffdf42^951"CpResource game/Resources/splash/Default-Landscape~ipad.png build/emulator/game.app/Default-Landscape~ipad.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default-Landscape~ipad.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"E343D931-74FD-483B-9E58-06F8E26D6142-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/game.app/Default-Portrait@2x~ipad.png
+s414877626.176888
+e414877626.181780
+r1
+xCpResource
+xgame/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/game.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/game.app/Default-Portrait@2x~ipad.png114"CpResource game/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/game.app/Default-Portrait@2x~ipad.png3d612dba87bab841^f6962eba87bab841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default-Portrait@2x~ipad.png0034e44cdfffdf42^957"CpResource game/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/game.app/Default-Portrait@2x~ipad.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default-Portrait@2x~ipad.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"9244425D-6DB8-412D-9C2B-8AE770A963F5-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/splash/Default-Portrait~ipad.png build/emulator/game.app/Default-Portrait~ipad.png
+s414877626.179599
+e414877626.182125
+r1
+xCpResource
+xgame/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/game.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/emulator/game.app/Default-Portrait~ipad.png108"CpResource game/Resources/splash/Default-Portrait~ipad.png build/emulator/game.app/Default-Portrait~ipad.png6e132eba87bab841^0ab92eba87bab841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default-Portrait~ipad.png0034e44cdfffdf42^948"CpResource game/Resources/splash/Default-Portrait~ipad.png build/emulator/game.app/Default-Portrait~ipad.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default-Portrait~ipad.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"4CCFC29A-A2AB-4C94-A441-1E9929067545-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/splash/Default@2x~iphone.png build/emulator/game.app/Default@2x~iphone.png
+s414877626.181954
+e414877626.184144
+r1
+xCpResource
+xgame/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/game.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/emulator/game.app/Default@2x~iphone.png100"CpResource game/Resources/splash/Default@2x~iphone.png build/emulator/game.app/Default@2x~iphone.pngaed92eba87bab841^9b1f2fba87bab841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default@2x~iphone.png0034e44cdfffdf42^936"CpResource game/Resources/splash/Default@2x~iphone.png build/emulator/game.app/Default@2x~iphone.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default@2x~iphone.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"F3A5DA1B-A3E7-4A24-B829-A7F96C44502F-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/Resources/splash/Default~iphone.png build/emulator/game.app/Default~iphone.png
+s414877626.183940
+e414877626.185619
+r1
+xCpResource
+xgame/Resources/splash/Default~iphone.png
+xbuild/emulator/game.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/emulator/game.app/Default~iphone.png94"CpResource game/Resources/splash/Default~iphone.png build/emulator/game.app/Default~iphone.pnga94a2fba87bab841^588f2fba87bab841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Default~iphone.png0034e44cdfffdf42^927"CpResource game/Resources/splash/Default~iphone.png build/emulator/game.app/Default~iphone.png    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/Resources/splash/Default~iphone.png /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"455C14E9-F91F-4C15-A30D-4BD7FF4F7D91-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CCpResource game/config.xml build/emulator/game.app/config.xml
+s414877626.163555
+e414877626.165295
+r1
+xCpResource
+xgame/config.xml
+xbuild/emulator/game.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/emulator/game.app/config.xml61"CpResource game/config.xml build/emulator/game.app/config.xmlecfa29ba87bab841^f9672aba87bab841^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/config.xml0034e44cdfffdf42^869"CpResource game/config.xml build/emulator/game.app/config.xml    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/game/config.xml /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"E676CBC2-4992-4868-ABDB-57CF489C6E5D-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CGenerateDSYMFile /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app.dSYM /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/game
+s414877626.354487
+e414877626.397465
+r1
+xGenerateDSYMFile
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app.dSYM
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/game
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Generate /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app.dSYM74"GenerateDSYMFile build/emulator/game.app.dSYM build/emulator/game.app/game45d65aba87bab841^cac065ba87bab841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/game.app.dSYM0034e44cdfffdf42^891"GenerateDSYMFile build/emulator/game.app.dSYM build/emulator/game.app/game    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/game -o /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app.dSYM36"6CBB7CA5-7BE8-46B1-A79B-7CCF42442FAD-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CLd /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/game normal i386
+s414877626.290398
+e414877626.353420
+r1
+xLd
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/game
+xnormal
+xi386
+d/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/game.LinkFileList
+d/Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o
+d/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/AppDelegate.o
+d/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Link /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/game43"Ld build/emulator/game.app/game normal i386e76f4aba87bab841^3a785aba87bab841^---0#0#1#--1928"Ld build/emulator/game.app/game normal i386    cd /Users/david/source/wordup/game/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/david/source/wordup/game/platforms/ios/build/emulator -F/Users/david/source/wordup/game/platforms/ios/build/emulator -filelist /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/game.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/game_dependency_info.dat -o /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/game36"35E37D8B-1F02-4863-80D2-7D9CBF4DB47B-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CPhaseScriptExecution Copy\ www\ directory /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Script-304B58A110DAC018002A0835.sh
+s414877625.894514
+e414877626.162999
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.240s
+ouser	0m0.084s
+osys	0m0.151s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'126"PhaseScriptExecution Copy\ www\ directory build/game.build/Debug-iphonesimulator/game.build/Script-304B58A110DAC018002A0835.sh39b7e5b987bab841^cec329ba87bab841^-42"real	0m0.240suser	0m0.084ssys	0m0.151s3(21%IDEActivityLogMessage2@14"real	0m0.240s-414877626#1#14#-0#-----2@14"user	0m0.084s-414877626#15#14#-0#-----2@13"sys	0m0.151s-414877626#29#13#-0#-----0#0#1#--21820"PhaseScriptExecution Copy\ www\ directory build/game.build/Debug-iphonesimulator/game.build/Script-304B58A110DAC018002A0835.sh    cd /Users/david/source/wordup/game/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER david    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD i386    setenv ARCHS_STANDARD_32_64_BIT i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "i386 x86_64"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/david/source/wordup/game/platforms/ios/build    setenv BUILD_ROOT /Users/david/source/wordup/game/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/david/source/wordup/game/platforms/ios/build/emulator    setenv CACHE_ROOT /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CCHROOT /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_BOOL_CONVERSION YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app    setenv CODE_SIGNING_ALLOWED NO    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneSimulatorCodeSignContext    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/david/source/wordup/game/platforms/ios/build/emulator    setenv CONFIGURATION_TEMP_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH game.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH game.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/game.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME game.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/david/source/wordup/game/platforms/ios/build/emulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH game.app/Executables    setenv EXECUTABLE_FOLDER_PATH game.app    setenv EXECUTABLE_NAME game    setenv EXECUTABLE_PATH game.app/game    setenv FILE_LIST /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH game.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/david/source/wordup/game/platforms/ios/build/emulator "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME game.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER game/game-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNDECLARED_SELECTOR YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/david/source/wordup/game/platforms/ios/build/emulator/include \"/Users/david/source/wordup/game/platforms/ios/build/emulator/usr/local/lib/include\" \"/Users/david/source/wordup/game/platforms/ios/build/UninstalledProducts/include\" \"/Users/david/source/wordup/game/platforms/ios/build/emulator\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE game/game-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH game.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH game.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/game.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER david    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/game.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH game.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/game_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/game-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/david/source/wordup/game/platforms/ios/build/emulator "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/game.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH game.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13B42    setenv MAC_OS_X_VERSION_ACTUAL 1091    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0901    setenv MODULE_CACHE_DIR /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Objects-normal    setenv OBJROOT /Users/david/source/wordup/game/platforms/ios/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH game.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/PkgInfo    setenv PKGINFO_PATH game.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 11B508    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 70000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH game.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH game.app/PrivateHeaders    setenv PRODUCT_NAME game    setenv PRODUCT_SETTINGS_PATH /Users/david/source/wordup/game/platforms/ios/game/game-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT game    setenv PROJECT_DERIVED_FILE_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/DerivedSources    setenv PROJECT_DIR /Users/david/source/wordup/game/platforms/ios    setenv PROJECT_FILE_PATH /Users/david/source/wordup/game/platforms/ios/game.xcodeproj    setenv PROJECT_NAME game    setenv PROJECT_TEMP_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build    setenv PROJECT_TEMP_ROOT /Users/david/source/wordup/game/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH game.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/david/source/wordup/game/platforms/ios/build/emulator "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH game.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_NAME iphonesimulator7.0    setenv SDK_PRODUCT_BUILD_VERSION 11B508    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/david/source/wordup/game/platforms/ios/build/emulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH game.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH game.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/david/source/wordup/game/platforms/ios    setenv SRCROOT /Users/david/source/wordup/game/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/david/source/wordup/game/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME game    setenv TARGET_BUILD_DIR /Users/david/source/wordup/game/platforms/ios/build/emulator    setenv TARGET_NAME game    setenv TARGET_TEMP_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build    setenv TEMP_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build    setenv TEMP_FILES_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build    setenv TEMP_FILE_DIR /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build    setenv TEMP_ROOT /Users/david/source/wordup/game/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH game.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER david    setenv USER_APPS_DIR /Users/david/Applications    setenv USER_LIBRARY_DIR /Users/david/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH game.app/version.plist    setenv VERSION_INFO_BUILDER david    setenv VERSION_INFO_FILE game_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:game  PROJECT:game-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME game.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A3005    setenv XCODE_VERSION_ACTUAL 0502    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH game.app/XPCServices    setenv YACC yacc    setenv arch i386    setenv variant normal    /bin/sh -c /Users/david/source/wordup/game/platforms/ios/build/game.build/Debug-iphonesimulator/game.build/Script-304B58A110DAC018002A0835.sh36"5FA75ED0-8A70-42B2-B14C-BE02D8018E99-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CProcessInfoPlistFile /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Info.plist /Users/david/source/wordup/game/platforms/ios/game/game-Info.plist
+s414877625.890752
+e414877625.893263
+r1
+xProcessInfoPlistFile
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Info.plist
+x/Users/david/source/wordup/game/platforms/ios/game/game-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Process /Users/david/source/wordup/game/platforms/ios/game/game-Info.plist76"ProcessInfoPlistFile build/emulator/game.app/Info.plist game/game-Info.plist5f28e4b987bab841^43aee4b987bab841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/david/source/wordup/game/platforms/ios/game/game-Info.plist0000000000000000^972"ProcessInfoPlistFile build/emulator/game.app/Info.plist game/game-Info.plist    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-infoPlistUtility /Users/david/source/wordup/game/platforms/ios/game/game-Info.plist -genpkginfo /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app/Info.plist36"3BC716B4-0770-4FF7-BB60-281C06E2F6D5-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+
+CProcessPCH /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/game-Prefix-gqzmvsbpussnwtfjfaylsclsijhf/game-Prefix.pch.pch game/game-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app
+s414877626.399243
+e414877626.403878
+r1
+xTouch
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/game.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Touch /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app29"Touch build/emulator/game.appa64866ba87bab841^236567ba87bab841^---0#0#1#--685"Touch build/emulator/game.app    cd /Users/david/source/wordup/game/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /usr/bin/touch -c /Users/david/source/wordup/game/platforms/ios/build/emulator/game.app36"55D5038F-4C04-4468-925F-BCE7EFE90754-
+bA643C4F5-CCA0-4488-B278-AC0273CFA1A5
+

@@ -1,0 +1,1184 @@
+TCordovaLib
+v6
+r1
+cCheck dependencies
+cCpHeader Classes/NSDictionary+Extensions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/CDVInvokedUrlCommand.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/NSData+Base64.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPluginResult.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/CDVPlugin.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVURLProtocol.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVViewController.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVCommandQueue.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVWebViewDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVTimer.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000529D44B90000000000000176
+t1386038457
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c0000000052552BF200000000000003B5
+t1381313522
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000529D443F00000000000001A0
+t1386038335
+s416
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDV.h
+c000000005309D5A50000000000000516
+t1393153445
+s1302
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+c000000005309D5A50000000000000CBF
+t1393153445
+s3263
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+c000000005309D5A500000000000008BA
+t1393153445
+s2234
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+c000000005309D5A50000000000000473
+t1393153445
+s1139
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+c000000005309D5A5000000000000127C
+t1393153445
+s4732
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+c000000005309D5A50000000000000501
+t1393153445
+s1281
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+c000000005309D5A500000000000017C5
+t1393153445
+s6085
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+c000000005309D5A500000000000004CB
+t1393153445
+s1227
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+c000000005309D5A50000000000000EB2
+t1393153445
+s3762
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVDebug.h
+c000000005309D5A50000000000000401
+t1393153445
+s1025
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c000000005309D5A500000000000007E6
+t1393153445
+s2022
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+c000000005309D5A50000000000000DDE
+t1393153445
+s3550
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.h
+c000000005309D5A500000000000003DA
+t1393153445
+s986
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.m
+c000000005309D5A5000000000000098E
+t1393153445
+s2446
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+c000000005309D5A500000000000006CF
+t1393153445
+s1743
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+c000000005309D5A50000000000004C7E
+t1393153445
+s19582
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+c000000005309D5A50000000000000892
+t1393153445
+s2194
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+c000000005309D5A500000000000016AE
+t1393153445
+s5806
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+c000000005309D5A50000000000000C13
+t1393153445
+s3091
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+c000000005309D5A50000000000001B29
+t1393153445
+s6953
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+c000000005309D5A50000000000000408
+t1393153445
+s1032
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVShared.h
+c000000005309D5A500000000000003E6
+t1393153445
+s998
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVShared.m
+c000000005309D5A500000000000006B6
+t1393153445
+s1718
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.h
+c000000005309D5A5000000000000038D
+t1393153445
+s909
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.m
+c000000005309D5A50000000000000AA2
+t1393153445
+s2722
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+c000000005309D5A5000000000000041C
+t1393153445
+s1052
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+c000000005309D5A50000000000002514
+t1393153445
+s9492
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+c000000005309D5A50000000000000421
+t1393153445
+s1057
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+c000000005309D5A500000000000012A2
+t1393153445
+s4770
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.h
+c000000005309D5A50000000000000ACC
+t1393153445
+s2764
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.m
+c000000005309D5A5000000000000879D
+t1393153445
+s34717
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+c000000005309D5A500000000000005A2
+t1393153445
+s1442
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+c000000005309D5A50000000000003804
+t1393153445
+s14340
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+c000000005309D5A500000000000004B4
+t1393153445
+s1204
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+c000000005309D5A500000000000027D3
+t1393153445
+s10195
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+c000000005309D5A50000000000000392
+t1393153445
+s914
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+c000000005309D5A500000000000004D8
+t1393153445
+s1240
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+c000000005309D5A5000000000000037D
+t1393153445
+s893
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+c000000005309D5A500000000000022CC
+t1393153445
+s8908
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+c000000005309D5A500000000000005DA
+t1393153445
+s1498
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+c000000005309D5A50000000000001059
+t1393153445
+s4185
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c000000005309D5A500000000000003A0
+t1393153445
+s928
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+c000000005309D5A50000000000000584
+t1393153445
+s1412
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+c000000005309D5A50000000000000476
+t1393153445
+s1142
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+c000000005309D5A50000000000000620
+t1393153445
+s1568
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+c000000005309D5A50000000000000346
+t1393153445
+s838
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+t1393184749
+s63156
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+t1393184749
+s60164
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+t1393184749
+s27740
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+t1393184748
+s18704
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+t1393184749
+s10860
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+t1393184749
+s109616
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+t1393184749
+s59508
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+t1393184748
+s37220
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+t1393184749
+s9384
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+t1393184749
+s22932
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+t1393184749
+s71228
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+t1393184749
+s52704
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+t1393184749
+s162560
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+t1393184749
+s71300
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+t1393184748
+s42348
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
+c00000000530A4FEC0000000000000C53
+t1393184748
+s3155
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+t1393184749
+s7464
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+t1393184748
+s11128
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+t1393184748
+s17840
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+t1393184748
+s6976
+
+N/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+t1393184749
+s9596
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDV.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+t2
+s0
+
+N/Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a
+t2
+s0
+
+N/var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch.pch
+t1393184748
+s3202112
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies129fe36b87bab841^1844346c87bab841^---0#1#1#--18"Check dependencies36"07C7BB97-D2DC-4B6F-80C8-1F725C4AA812-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877549.366176
+e414877549.648249
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m216"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler08e95d6d87bab841^b6f3a56d87bab841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3983"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o36"25EA8BEC-C56B-4DD3-AE1F-77B1DA4A7D37-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877549.320167
+e414877549.633894
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd42a526d87bab841^1970a26d87bab841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3941"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o36"ED42C9A0-795A-4E8A-863C-B8EBABE6DE7E-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877549.515916
+e414877549.571527
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVConfigParser.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5741846d87bab841^a94f926d87bab841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3941"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o36"7C8F5804-568F-410B-B087-1A4D7AF363B5-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877548.614280
+e414877548.664787
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m212"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera46c9d6c87bab841^363faa6c87bab841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3971"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o36"2EDC760C-C5A7-4ABE-BE23-7823EF06AF3E-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877549.572888
+e414877549.614153
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.m186"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler49d5926d87bab841^65399d6d87bab841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3893"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o36"80F9F5C2-120D-4B40-A87E-FCA45931D230-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877548.991465
+e414877549.365750
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler27f5fd6c87bab841^98a15d6d87bab841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3941"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o36"BF645E66-BA77-4481-AAF2-13F6B07AD6FC-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877548.661583
+e414877549.279877
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.m190"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc094a96c87bab841^7db1476d87bab841^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3905"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o36"B38862CD-300B-4DA8-9529-F32C94326EED-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877548.616112
+e414877548.713227
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera8df9d6c87bab841^4e9ab66c87bab841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3941"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o36"FDE9AD8B-42D1-4602-B256-433E60B22FE3-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877549.689848
+e414877549.743665
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVShared.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVShared.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVShared.m190"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0a10b16d87bab841^a81dbe6d87bab841^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3905"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o36"45CDDDE5-42E2-41C4-AAB1-CE3F3E5E865A-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877549.649590
+e414877549.704749
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.m188"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9e78a66d87bab841^e46ab46d87bab841^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3899"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o36"25A5F0A6-FE16-4A7A-8303-476C140D8C9C-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877548.715141
+e414877549.280462
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m200"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3c50b76c87bab841^4e5e486d87bab841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3935"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o36"0D23409D-3FC5-4FC3-AE9D-BB87CA76CBD9-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877549.615460
+e414877549.866729
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m204"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9a059e6d87bab841^f3e5dd6d87bab841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3947"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o36"44365C81-6EFF-4C30-87E7-28D4AABC179C-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877548.716602
+e414877549.688295
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.m206"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8105b86c87bab841^9c35b06d87bab841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3953"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o36"750C2C34-E141-498F-967E-883276D1D0B7-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877549.634351
+e414877549.883008
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m208"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler38d9a26d87bab841^350de26d87bab841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3959"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o36"B09C2931-DBEE-4165-8E6F-4AF037A2848B-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877548.669393
+e414877548.991096
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.m196"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf9daab6c87bab841^f1b7fd6c87bab841^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3923"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o36"94D384E0-D55C-4276-9BE5-032623F0F5B0-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877549.282869
+e414877549.318539
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m210"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler75c9486d87bab841^f88b516d87bab841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3965"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o36"2DBAACC0-C042-4445-97DB-12428BC9E792-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877548.614670
+e414877548.660299
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.m198"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler588d9d6c87bab841^bb0aa96c87bab841^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3929"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o36"E6976E1E-942C-451D-84F9-D2786A8D9B27-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877548.613948
+e414877548.665325
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m218"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf5699d6c87bab841^9753aa6c87bab841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3989"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o36"77CBD25E-3737-485E-9533-985633A69E58-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877548.665657
+e414877548.715222
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m230"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4f92aa6c87bab841^6614b76c87bab841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^4025"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o36"C89AF74F-B61D-4AC0-92A8-83B7E4D79663-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877549.280349
+e414877549.514197
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+x/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m210"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8cf3476d87bab841^cfa2836d87bab841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3965"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG -include /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d --serialize-diagnostics /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.dia -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o36"5C58ECD4-330B-4B11-8991-49E27318438C-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDV.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDV.h
+s414877548.214665
+e414877548.217692
+r1
+xCpHeader
+xClasses/CDV.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDV.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDV.h105"CpHeader Classes/CDV.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDV.h3926376c87bab841^6edb376c87bab841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDV.h0034e44cdfffdf42^940"CpHeader Classes/CDV.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDV.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDV.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"17B25062-E0F8-4B11-B097-26F65BAB4BE4-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVAvailability.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+s414877548.215401
+e414877548.217788
+r1
+xCpHeader
+xClasses/CDVAvailability.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h129"CpHeader Classes/CDVAvailability.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVAvailability.hb263376c87bab841^8def376c87bab841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h0034e44cdfffdf42^976"CpHeader Classes/CDVAvailability.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"D2172B76-4ECA-463E-89C4-6947D3103062-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVCommandDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+s414877548.214124
+e414877548.215510
+r1
+xCpHeader
+xClasses/CDVCommandDelegate.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h135"CpHeader Classes/CDVCommandDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h5ef7366c87bab841^1536376c87bab841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h0034e44cdfffdf42^985"CpHeader Classes/CDVCommandDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"7066B74A-0F43-4A61-9BE6-25A7158F3B90-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVCommandDelegateImpl.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+s414877548.220218
+e414877548.221871
+r1
+xCpHeader
+xClasses/CDVCommandDelegateImpl.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h143"CpHeader Classes/CDVCommandDelegateImpl.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h5986386c87bab841^3ae6386c87bab841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h0034e44cdfffdf42^997"CpHeader Classes/CDVCommandDelegateImpl.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"D5563A06-76FD-4DB2-8749-2A84BD4C5586-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVCommandQueue.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+s414877548.219757
+e414877548.221522
+r1
+xCpHeader
+xClasses/CDVCommandQueue.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h129"CpHeader Classes/CDVCommandQueue.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h2767386c87bab841^e6ce386c87bab841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h0034e44cdfffdf42^976"CpHeader Classes/CDVCommandQueue.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"4CF694B3-08AC-4933-9761-4782BF0CA9C1-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVConfigParser.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+s414877548.222056
+e414877548.223995
+r1
+xCpHeader
+xClasses/CDVConfigParser.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h129"CpHeader Classes/CDVConfigParser.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h49f6386c87bab841^6799396c87bab841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h0034e44cdfffdf42^976"CpHeader Classes/CDVConfigParser.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"3E81B4AA-4E25-46F8-B31A-263A8ECB45B2-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVDebug.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+s414877548.210991
+e414877548.213073
+r1
+xCpHeader
+xClasses/CDVDebug.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVDebug.h115"CpHeader Classes/CDVDebug.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVDebug.h6c23366c87bab841^529d366c87bab841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVDebug.h0034e44cdfffdf42^955"CpHeader Classes/CDVDebug.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVDebug.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"814EE59E-ECA9-4FFD-B341-7710B684726F-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVInvokedUrlCommand.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+s414877548.207674
+e414877548.210371
+r1
+xCpHeader
+xClasses/CDVInvokedUrlCommand.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h139"CpHeader Classes/CDVInvokedUrlCommand.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h484f356c87bab841^10cc356c87bab841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h0034e44cdfffdf42^991"CpHeader Classes/CDVInvokedUrlCommand.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"3F496AAF-2642-4766-9230-779889A885FF-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVJSON.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+s414877548.222430
+e414877548.224003
+r1
+xCpHeader
+xClasses/CDVJSON.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVJSON.h113"CpHeader Classes/CDVJSON.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVJSON.he109396c87bab841^dca1396c87bab841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVJSON.h0034e44cdfffdf42^952"CpHeader Classes/CDVJSON.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVJSON.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"F6B3B4BF-04AC-4342-B62C-816FDB26056F-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVLocalStorage.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+s414877548.215862
+e414877548.217853
+r1
+xCpHeader
+xClasses/CDVLocalStorage.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h129"CpHeader Classes/CDVLocalStorage.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h297b376c87bab841^a642386c87bab841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h0034e44cdfffdf42^976"CpHeader Classes/CDVLocalStorage.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"C836421E-F52C-482E-A102-CB678707FB81-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVPlugin.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+s414877548.210915
+e414877548.213259
+r1
+xCpHeader
+xClasses/CDVPlugin.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h117"CpHeader Classes/CDVPlugin.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h4d2e366c87bab841^5dc1366c87bab841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h0034e44cdfffdf42^958"CpHeader Classes/CDVPlugin.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"D5FF1175-382F-44A4-9B18-D93A8C7B957F-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVPluginResult.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+s414877548.208352
+e414877548.210591
+r1
+xCpHeader
+xClasses/CDVPluginResult.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h129"CpHeader Classes/CDVPluginResult.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.he066356c87bab841^48f9356c87bab841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h0034e44cdfffdf42^976"CpHeader Classes/CDVPluginResult.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"57D6BCAC-D1FB-407D-ACAD-787FC2E70CD5-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+s414877548.221521
+e414877548.223487
+r1
+xCpHeader
+xClasses/CDVScreenOrientationDelegate.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h155"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h51d9386c87bab841^1879396c87bab841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h0034e44cdfffdf42^1015"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"5A6319FA-87CC-47D2-9DE0-6B022EB21469-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVShared.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+s414877548.220922
+e414877548.223178
+r1
+xCpHeader
+xClasses/CDVShared.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVShared.h117"CpHeader Classes/CDVShared.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVShared.h6ebf386c87bab841^fa41396c87bab841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVShared.h0034e44cdfffdf42^958"CpHeader Classes/CDVShared.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVShared.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"9C60BE59-A635-4D88-B291-D23EC1350AD4-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVTimer.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+s414877548.224555
+e414877548.225906
+r1
+xCpHeader
+xClasses/CDVTimer.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVTimer.h115"CpHeader Classes/CDVTimer.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVTimer.hcea8396c87bab841^d4d5396c87bab841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVTimer.h0034e44cdfffdf42^955"CpHeader Classes/CDVTimer.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVTimer.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"8F8B8111-FACD-4397-8E14-AA9A535ADB01-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVURLProtocol.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+s414877548.213662
+e414877548.215137
+r1
+xCpHeader
+xClasses/CDVURLProtocol.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h127"CpHeader Classes/CDVURLProtocol.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.ha2d0366c87bab841^a016376c87bab841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h0034e44cdfffdf42^973"CpHeader Classes/CDVURLProtocol.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"BB169CF8-180D-4154-8041-45430F146CFC-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVUserAgentUtil.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+s414877548.223928
+e414877548.225347
+r1
+xCpHeader
+xClasses/CDVUserAgentUtil.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h131"CpHeader Classes/CDVUserAgentUtil.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h7782396c87bab841^19c6396c87bab841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h0034e44cdfffdf42^979"CpHeader Classes/CDVUserAgentUtil.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"65C2AF98-EC86-4450-B2BD-458136FB040E-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVViewController.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+s414877548.213876
+e414877548.215522
+r1
+xCpHeader
+xClasses/CDVViewController.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVViewController.h133"CpHeader Classes/CDVViewController.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVViewController.h04e5366c87bab841^b340376c87bab841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVViewController.h0034e44cdfffdf42^982"CpHeader Classes/CDVViewController.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVViewController.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"31896EA4-B0EE-42B1-B40A-E884471866E6-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVWebViewDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+s414877548.223420
+e414877548.225234
+r1
+xCpHeader
+xClasses/CDVWebViewDelegate.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h135"CpHeader Classes/CDVWebViewDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h7364396c87bab841^6fba396c87bab841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h0034e44cdfffdf42^985"CpHeader Classes/CDVWebViewDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"37BB7F20-5056-47C4-ACF6-974AC3B1EA76-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/CDVWhitelist.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+s414877548.211726
+e414877548.213509
+r1
+xCpHeader
+xClasses/CDVWhitelist.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h123"CpHeader Classes/CDVWhitelist.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h6150366c87bab841^e2e4366c87bab841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h0034e44cdfffdf42^967"CpHeader Classes/CDVWhitelist.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"D9CB78D7-CE0B-45D5-B554-3594CA4ECAA3-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/NSArray+Comparisons.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+s414877548.219441
+e414877548.221319
+r1
+xCpHeader
+xClasses/NSArray+Comparisons.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h137"CpHeader Classes/NSArray+Comparisons.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h8655386c87bab841^32aa386c87bab841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h0034e44cdfffdf42^988"CpHeader Classes/NSArray+Comparisons.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"328B4A7B-3E30-447F-8A4D-55B811B76B58-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/NSData+Base64.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+s414877548.207788
+e414877548.210563
+r1
+xCpHeader
+xClasses/NSData+Base64.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h125"CpHeader Classes/NSData+Base64.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h594f356c87bab841^3ae9356c87bab841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h0034e44cdfffdf42^970"CpHeader Classes/NSData+Base64.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"BFEEA844-D254-4A7C-B267-48CADD4EE1EB-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/NSDictionary+Extensions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+s414877548.207412
+e414877548.210274
+r1
+xCpHeader
+xClasses/NSDictionary+Extensions.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h145"CpHeader Classes/NSDictionary+Extensions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h9e43356c87bab841^39d2356c87bab841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h00e807b17ae5df42^1000"CpHeader Classes/NSDictionary+Extensions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"7EAFFF43-B073-412C-9BF8-4B47BA04B47B-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+s414877548.211038
+e414877548.213267
+r1
+xCpHeader
+xClasses/NSMutableArray+QueueAdditions.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h157"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.ha648366c87bab841^67d2366c87bab841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h0034e44cdfffdf42^1018"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"12BE8AEC-B744-4274-B22E-6CC6C3ED30EE-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CCpHeader Classes/UIDevice+Extensions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+s414877548.216795
+e414877548.219537
+r1
+xCpHeader
+xClasses/UIDevice+Extensions.h
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h137"CpHeader Classes/UIDevice+Extensions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h1fa0376c87bab841^7079386c87bab841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h0034e44cdfffdf42^988"CpHeader Classes/UIDevice+Extensions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/david/source/wordup/game/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/david/source/wordup/game/platforms/ios/build/emulator/include/Cordova36"5BC69CA6-6BAF-48AC-85D8-363D5271D98A-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CLibtool /Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a normal i386
+s414877549.884674
+e414877549.898983
+r1
+xLibtool
+x/Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Libtool /Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a normal i38693"Libtool /Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a normal i386da91e26d87bab841^9a24e66d87bab841^---0#0#1#--1271"Libtool /Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a normal i386    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/david/source/wordup/game/platforms/ios/build/emulator -filelist /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/david/source/wordup/game/platforms/ios/build/emulator/libCordova.a36"D7209D31-C58A-4146-A735-CF3250D98D43-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
+CProcessPCH /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414877548.226576
+e414877548.613169
+r1
+xProcessPCH
+x/var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch.pch
+xCordovaLib_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/david/source/wordup/game/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch291"ProcessPCH /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb8213a6c87bab841^e7fc9c6c87bab841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/david/source/wordup/game/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^3935"ProcessPCH /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/source/wordup/game/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/david/src/nvm/v0.10.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/adt-bundle-mac-x86_64-20130522/sdk/tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/:/Applications/adt-bundle-mac-x86_64-20130522/sdk/build-tools/android-4.2.2/:/usr/local/git/bin:/Applications/git-tf-2.0.2.20130214/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/david/source/wordup/game/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/david/source/wordup/game/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/david/source/wordup/game/platforms/ios/build/emulator -DDEBUG --serialize-diagnostics /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch.d -c /Users/david/source/wordup/game/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/74/mn_jf2gj13s8_zytffwfrrtc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fuuezcwlsrhtkgcngcmgpsfzgdbs/CordovaLib_Prefix.pch.pch36"7302198C-EAA7-4A85-B4BA-3D80ECD2E91A-
+b6CE3D81D-367F-4405-AD78-98FE89DC8065
+
