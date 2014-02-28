@@ -10,7 +10,7 @@
 			{"word":"geek", "x":"1","y":"0"},
 			{"word":"exon", "x":"3","y":"0","vert":"true"}
 		],
-		"initialMatrix":[
+		"placedWords":[
 			{"word":"nerd", "x":"3","y":"3"},
 			{"word":"burger", "x":"5","y":"1","vert":"true"}
 		]
@@ -27,7 +27,7 @@
 			{"word":"shot", "x":"6","y":"1"},
 			{"word":"herder", "x":"7","y":"1","vert":"true"}
 		],
-		"initialMatrix":[
+		"placedWords":[
 			{"word":"warrior", "x":"1","y":"3"},
 			{"word":"starring", "x":"2","y":"1","vert":"true"}
 		]

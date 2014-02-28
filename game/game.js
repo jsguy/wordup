@@ -45,7 +45,7 @@ function create() {
 	var levels = game.cache._text['levels'] = JSON.parse(game.cache.getText('levels'));
 
 	//	Setup our fisrt level for now
-	service.initMatrix(levels[0].initialMatrix);
+	service.initWords(levels[0].placedWords);
 };
 
 function update() {

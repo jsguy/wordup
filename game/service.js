@@ -13,9 +13,9 @@ var gameservice = function(args){
 	args = _.assign({
 		tileX: 64,
 		tileY: 64,
-		//	How big is it
+		//	How big is the matrix (play field)
 		matrixSize: [10, 10],
-		matrix: [],
+		placedWords: [],
 		//
 		//	Score per letter
 		//	Intersecting = x2
@@ -98,6 +98,10 @@ var gameservice = function(args){
 				myWordSprite.origY = myWordSprite.y;
 				myWordSprite.hasDragged = true;
 			}
+				
+			myWordSprite.prevX = myWordSprite.x;
+			myWordSprite.prevY = myWordSprite.y;
+
 			myWordSprite.spriteUpdate = bind(function(){
 				myWord.x = myWordSprite.x - myWordSprite.origX;
 				myWord.y = myWordSprite.y - myWordSprite.origY;
@@ -105,30 +109,34 @@ var gameservice = function(args){
 		});
 
 		//	When you're done dragging the sprite
-		myWordSprite.events.onInputUp.add(function(){
-			unbind(myWordSprite.spriteUpdate);
-			myWordSprite.spriteUpdate = null;
-			myWord.x = myWordSprite.x - myWordSprite.origX;
-			myWord.y = myWordSprite.y - myWordSprite.origY;
-			
-			//	TODO: limit to within grid
+		myWordSprite.events.onInputUp.add(function(sprite, pointer, isOver){
+			//	Not really sure why, but this is called twice, first 
+			//	with isOver: true, and then always without isOver
+			if(!isOver) {
+				unbind(myWordSprite.spriteUpdate);
+				myWordSprite.spriteUpdate = null;
 
-			//	TODO: Ensure you can actually place the word here
+				myWord.x = myWordSprite.x - myWordSprite.origX;
+				myWord.y = myWordSprite.y - myWordSprite.origY;
+				
+				//	TODO: limit to within grid
 
-			//	TODO: Update score
-			//console.log('scoreMatrix', service.scoreMatrix());
+				//	TODO: Ensure you can actually place the word here
 
+				//	Move word in the matrix
+				moveWordInMatrix(
+					{ word: word, x: myWordSprite.prevX / args.tileX, y: myWordSprite.prevY / args.tileY, vert: vert },
+					{ word: word, x: myWordSprite.x / args.tileX, y: myWordSprite.y / args.tileY, vert: vert }
+				);
+
+				//	TODO: Update score
+				//console.log('scoreMatrix', service.scoreMatrix());
+			}
 		});
 	},
 
-	//	Initialises the matrix, with the optional placed words
-	initMatrix = function(placedWords) {
-		for(var y = 0; y < args.matrixSize[1]; y += 1) {
-			args.matrix[y] = [];
-			for(var x = 0; x < args.matrixSize[0]; x += 1) {
-				args.matrix[y][x] = "";
-			}
-		}
+	//	Initialises the words, with the optional placed words
+	initWords = function(placedWords) {
 		if(placedWords) {
 			if(placedWords.length) {
 				for(var i = 0; i < placedWords.length; i += 1) {
@@ -138,16 +146,13 @@ var gameservice = function(args){
 				}
 			}
 		}
-		return args.matrix;
 	},
-
 
 	//	Returns a vertical version of the matrix
 	//	This makes checking and placing vertical words easier
-	verticalMatrix = function(flipMatrix) {
+	verticalMatrix = function(myMatrix) {
 		//	Create vertical matrix
-		var vMatrix = [],
-			myMatrix = (flipMatrix)? flipMatrix: args.matrix;
+		var vMatrix = [];
 		for(var y = 0; y < args.matrixSize[1]; y += 1) {
 			vMatrix[y] = vMatrix[y] || [];
 			for(var x = 0; x < args.matrixSize[0]; x += 1) {
@@ -159,37 +164,109 @@ var gameservice = function(args){
 		return vMatrix;
 	},
 
-	//	Places a word in the matrix
+	//	Places a new word in the matrix
 	//	Note: this is done without checking if it can be placed
 	placeWordInMatrix = function(word, x, y, vert) {
-		var count = 0,
-			myMatrix = args.matrix;
+		var count = 0;
 
 		x = parseInt(x, 10);
 		y = parseInt(y, 10);
 
+		//	Add to our placed words
+		args.placedWords.push({
+			word: word,
+			x: x,
+			y: y,
+			vert: vert			
+		});
+
+		//	Handle vertical
 		if(vert) {
-			myMatrix = verticalMatrix();
 			var tmpX = parseInt(x, 10);
 			x = parseInt(y, 10);
 			y = parseInt(tmpX, 10);
 		}
 
-		for(var ix = x; ix < x + word.length; ix += 1) {
-			myMatrix[ix][y] = word.charAt(count);
-			count += 1;
-		}
-
-		//	Add onto game board
+		//	Add onto phaser game board
 		service.createWord(word, x, y, vert);
 
-		args.matrix = (vert)? verticalMatrix(myMatrix): myMatrix;
+		//	Score setup
+		showScore(scoreMatrix());
 	},
 
+	//	pos: { word, x, y, vert }
+	moveWordInMatrix = function(oldPos, newPos){
+		//	Update the word in the placedWords
+		for(var i = 0; i < args.placedWords.length; i += 1) {
+			var pw = args.placedWords[i];
+			if(oldPos.word == pw.word && 
+				oldPos.x == pw.x && 
+				oldPos.y == pw.y && 
+				oldPos.vert == pw.vert 
+			) {
+				args.placedWords[i].x = newPos.x;
+				args.placedWords[i].y = newPos.y;
+			}
+		}
+
+		// Sync the matrix 
+		//	TODO: We should only create the matrix when we need it.
+		//constructMatrix(args.placedWords);
+		//	Score setup
+		showScore(scoreMatrix());
+	},
+
+	debugMatrix = function(mat){
+		var result = "", tmp;
+
+		for(var x = 0; x < args.matrixSize[0]; x += 1) {
+			tmp = [];
+			for(var y = 0; y < args.matrixSize[1]; y += 1) {
+				if(mat[x]) {
+					tmp.push((mat[y][x]? mat[y][x]: ".") + " ");
+				}
+			}
+			result += tmp.join("") + "\n";
+		}
+
+		return result;
+	},
+
+	//	Creates a text array version of the matrix based on placed words
+	constructMatrix = function(words){
+		var mat = [];
+		for(var y = 0; y < args.matrixSize[1]; y += 1) {
+			mat[y] = [];
+			for(var x = 0; x < args.matrixSize[0]; x += 1) {
+				mat[y][x] = "";
+			}
+		}
+
+		//	Now add the words
+		for(var i = 0; i < words.length; i += 1) {
+			var w = words[i], count = 0;
+
+			if(!w.vert) {
+				for(var ix = w.x; ix < w.x + w.word.length; ix += 1) {
+					mat[ix][w.y] = w.word.charAt(count);
+					count += 1;
+				}
+			} else {
+				for(var iy = w.y; iy < w.y + w.word.length; iy += 1) {
+					mat[w.x][iy] = w.word.charAt(count);
+					count += 1;
+				}
+			}
+
+		}
+
+		return mat;
+	},
 
 	//	Scores the contents of the matrix
 	scoreMatrix = function() {
-		myMatrix = args.matrix;
+		var myMatrix = constructMatrix(args.placedWords);
+
 		//	Set the inital score offset (based on letters already in the matrix)
 		var score = (args.initScore)? -args.initScore: 0,
 			xWidth = args.matrixSize[0] - 1,
@@ -220,44 +297,47 @@ var gameservice = function(args){
 			}
 		}
 
+		//	testing - show the matrix in text form
+		//console.log(debugMatrix(myMatrix));
+
 		return score;
 	},
 
+	scorePlaceholder,
+
 	// //	Shows the score on the board
-	// showScore = function(score) {
+	showScore = function(score) {
+		score = score || 0;
+		var text = "SCORE: " + score,
+			style;
 
-	// 	score = score || 0;
+		if(!scorePlaceholder) {
+			style = { font: "32px Arial", fill: "#000044", align: "right" };
 
-	//     var text = "SCORE: " + score;
-	//     var style = { font: "32px Arial", fill: "#000044", align: "right" };
+			scorePlaceholder = game.add.text(game.world.width, 0, text, style);
+			scorePlaceholder.anchor.setTo(1, 0);
+		} else {
+			scorePlaceholder.setText(text);
+		}
 
-	//     //var t = game.add.text(game.world.centerX, game.world.centerY, text, style);
-	//     //t.anchor.setTo(0.5, 0.5);
-	//     //scoreText = game.add.text(game.world.width, 0, text, style);
-	//     //scoreText.anchor.setTo(1, 0);
-	// },
+		return scorePlaceholder;
+	},
 
 
 	//	This is run in the update loop
 	update = function(){
-		for(i = 0; i < updateQueue.length; i += 1) {
-			updateQueue[i]();
+		if(updateQueue.length > 0) {
+			for(i = 0; i < updateQueue.length; i += 1) {
+				updateQueue[i]();
+			}
 		}
-
-		//	LOL, don't do this, just testing
-		// var x = parseInt(Math.random() * 100, 10);
-		// if(x % 13 == 0) {
-		// 	scoreText.setText(x);
-		// 	showScore();
-
-		// }
-
 	};
 
 	return {
 		createWord: createWord,
 		update: update,
-		initMatrix: initMatrix,
+		initWords: initWords,
+		debugMatrix: debugMatrix,
 		scoreMatrix: scoreMatrix
 	};
 
