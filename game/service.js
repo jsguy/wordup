@@ -54,7 +54,32 @@ var gameservice = function(args){
 		var offsetX = x? x * args.tileX: 0,
 			offsetY = y? y * args.tileY: 0,
 			//  Create and add a word group
-			myWord = game.add.group();
+			myWord = game.add.group(),
+			maxX = 640 - args.tileX, maxY = 640 - args.tileY,
+			minY = 0, minX = 0,
+			wordWidth = (vert? 1: word.length * args.tileX),
+			wordHeight = (vert? word.length * args.tileY: 1),
+			//	Return x, y values for position of dragged word
+			//	limiting it within the given coordinates
+			//	snapping to the edges, if drag is outside area
+			checkPos = function(x, y) {
+				var result = {x: x, y: y};
+
+				if(x <= minX) {
+					result.x = minX;
+				}
+				if(x + wordWidth >= maxX) {
+					result.x = maxX - wordWidth;
+				}
+				if(y <= minY) {
+					result.y = minY;
+				}
+				if(y + wordHeight >= maxY) {
+					result.y = maxY - wordHeight;
+				}
+
+				return result;
+			};
 
 		word = word.toLowerCase();
 
@@ -102,9 +127,17 @@ var gameservice = function(args){
 			myWordSprite.prevX = myWordSprite.x;
 			myWordSprite.prevY = myWordSprite.y;
 
+			//	Whilst dragging the sprite - this is done 
+			//	on each frame, so be efficient!
 			myWordSprite.spriteUpdate = bind(function(){
-				myWord.x = myWordSprite.x - myWordSprite.origX;
-				myWord.y = myWordSprite.y - myWordSprite.origY;
+				var newX = myWordSprite.x - myWordSprite.origX,
+					newY = myWordSprite.y - myWordSprite.origY,
+					posX = newX + myWordSprite.origX,
+					posY = newY + myWordSprite.origY,
+					result = checkPos(posX, posY);
+
+				myWord.x = result.x - myWordSprite.origX;
+				myWord.y = result.y - myWordSprite.origY;
 			});
 		});
 
@@ -116,12 +149,15 @@ var gameservice = function(args){
 				unbind(myWordSprite.spriteUpdate);
 				myWordSprite.spriteUpdate = null;
 
-				myWord.x = myWordSprite.x - myWordSprite.origX;
-				myWord.y = myWordSprite.y - myWordSprite.origY;
-				
-				//	TODO: limit to within grid
+				var newX = myWordSprite.x - myWordSprite.origX,
+					newY = myWordSprite.y - myWordSprite.origY,
+					posX = newX + myWordSprite.origX,
+					posY = newY + myWordSprite.origY,
+					result = checkPos(posX, posY);
 
-				//	TODO: Ensure you can actually place the word here
+				//	Limit to within the matrix					
+				myWord.x = result.x - myWordSprite.origX;
+				myWord.y = result.y - myWordSprite.origY;
 
 				//	Move word in the matrix
 				moveWordInMatrix(
@@ -194,7 +230,8 @@ var gameservice = function(args){
 		showScore(scoreMatrix());
 	},
 
-	//	pos: { word, x, y, vert }
+	//	When a word is placed in the matrix
+	//	Updates the words position and shows score
 	moveWordInMatrix = function(oldPos, newPos){
 		//	Update the word in the placedWords
 		for(var i = 0; i < args.placedWords.length; i += 1) {
